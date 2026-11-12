@@ -1,5 +1,392 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Project Dux explores thoughtful approaches to AI and education."><title>Project Dux — Learning, with intention</title><link rel="icon" href="assets/mark.svg" type="image/svg+xml"><style>
-:root{--ink:#3f312b;--paper:#f5f0e8;--cream:#ece2d5;--green:#60483c;--lime:#e8cda9;--line:#cbbbae}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,sans-serif}a{color:inherit}header{height:76px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 6.5%;font-size:12px;letter-spacing:.14em;text-transform:uppercase}.brand{font-weight:700;text-decoration:none}.brand span{font-weight:400;opacity:.65;margin-left:9px}nav{display:flex;gap:30px;align-items:center}nav a{text-decoration:none}button{font:inherit;color:inherit}.motion{border:1px solid var(--line);background:transparent;padding:10px 13px;cursor:pointer;text-transform:uppercase;letter-spacing:.1em;font-size:10px}.hero{min-height:680px;display:grid;grid-template-columns:1fr 1fr;border-bottom:1px solid var(--line)}.hero-copy{padding:112px 7vw 95px 13%;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}.eyebrow{font-size:11px;font-weight:bold;letter-spacing:.2em;text-transform:uppercase}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#a77d5f;margin-right:9px}h1,h2,h3,blockquote{font-family:Georgia,serif;font-weight:400}h1{font-size:clamp(58px,6.4vw,98px);letter-spacing:-.055em;line-height:.98;margin:28px 0}em{font-weight:400;color:#987058}.intro{font-size:17px;line-height:1.7;max-width:470px;color:#68574e}.link{margin-top:27px;font-size:11px;letter-spacing:.15em;text-transform:uppercase;text-decoration:none;border-bottom:1px solid;padding-bottom:10px}.art{position:relative;background:#dfe6cb;overflow:hidden;min-height:540px;display:grid;place-items:center}.art:before,.art:after{content:"";position:absolute;border:1px solid #a5b48e;border-radius:50%;width:72%;aspect-ratio:1}.art:after{width:52%}.orbit{position:absolute;width:72%;aspect-ratio:1;animation:turn 35s linear infinite}.orbit:before{content:"";position:absolute;left:13%;top:13%;width:13px;height:13px;border-radius:50%;background:#526d4b}.paused .orbit{animation-play-state:paused}@keyframes turn{to{transform:rotate(360deg)}}.art svg{width:min(75%,480px);position:relative;z-index:1}.art-label{position:absolute;bottom:30px;left:35px;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:#25362e}.section{padding:110px 8%;}.section-head{display:grid;grid-template-columns:1fr 2fr;gap:35px}.section-head h2{font-size:clamp(42px,5vw,70px);letter-spacing:-.04em;line-height:1.05;margin:0;max-width:750px}.section-head p{font-size:16px;line-height:1.7;max-width:590px}.paths{display:grid;grid-template-columns:repeat(3,1fr);margin-top:80px;border-top:1px solid var(--line)}.path{padding:28px 30px 20px 0;border-bottom:1px solid var(--line)}.path+.path{padding-left:30px;border-left:1px solid var(--line)}.num{font-size:11px;letter-spacing:.13em;color:#947662}.path h3{font-size:30px;line-height:1.1;margin:55px 0 17px}.path p{font-size:15px;line-height:1.7;color:#68574e;max-width:330px}.practice{background:var(--green);color:#f2f2e9;display:grid;grid-template-columns:1fr 1fr;gap:10%;align-items:center}.practice h2{font-size:clamp(48px,5vw,72px);line-height:1.05;letter-spacing:-.04em;margin:25px 0}.practice em{color:var(--lime)}.practice p{font-size:16px;line-height:1.75;color:#eadbd0}.questions{border-top:1px solid #a99587}.question{padding:23px 0;border-bottom:1px solid #a99587;font-family:Georgia,serif;font-size:23px;line-height:1.3}.origin{display:grid;grid-template-columns:1fr 2fr;gap:35px}.origin blockquote{font-size:clamp(30px,3.4vw,48px);line-height:1.2;letter-spacing:-.025em;margin:0 0 30px;max-width:850px}.origin p{line-height:1.7;max-width:650px;color:#68574e}.origin a{text-underline-offset:4px}footer{border-top:1px solid var(--line);padding:34px 8%;display:flex;justify-content:space-between;gap:25px;font-size:11px;letter-spacing:.12em;text-transform:uppercase}.draft{background:#ede2d6;padding:15px 8%;font-size:12px;line-height:1.5;text-align:center;color:#685348}@media(max-width:760px){header{padding:0 6%;height:68px}nav a{display:none}.hero{grid-template-columns:1fr}.hero-copy{padding:75px 7%}.art{min-height:390px}.section{padding:75px 7%}.section-head,.origin,.practice{grid-template-columns:1fr}.paths{grid-template-columns:1fr;margin-top:45px}.path+.path{padding-left:0;border-left:0}.path h3{margin:30px 0 15px}footer{flex-direction:column}.practice{gap:30px}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;scroll-behavior:auto!important}}
-.research-intro{background:#e6ead7;border-bottom:1px solid var(--line)}.research-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:45px}.research-card{background:#f5f0e8;padding:28px;text-decoration:none}.research-card span{font-size:11px;letter-spacing:.12em;text-transform:uppercase}.research-card h3{font-size:30px;margin:35px 0 15px}.research-card p{line-height:1.7;color:#68574e}.related{border-top:1px solid var(--line);padding:55px 8%;line-height:1.8}.related p{max-width:850px}.related a{text-underline-offset:4px}@media(max-width:760px){.research-cards{grid-template-columns:1fr}.research-card h3{margin:22px 0 12px}}.evidence-brief{background:#f0e7dc}.evidence-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;margin-top:45px}.evidence-grid article{border-top:1px solid var(--line);padding-top:22px}.evidence-grid h3{font-size:28px;margin:15px 0}.evidence-grid p{line-height:1.7;color:#68574e}.evidence-grid a{text-underline-offset:4px}.evidence-label{font-size:10px;text-transform:uppercase;letter-spacing:.14em}@media(max-width:760px){.evidence-grid{grid-template-columns:1fr}}</style></head><body><header><a class="brand" href="#top">Project Dux <span>by Voelori</span></a><nav aria-label="Main navigation"><a href="#explore">Explore</a><a href="#practice">In practice</a><a href="library/index.html">Research library</a><a href="#origin">Origin</a><button class="motion" id="motion" aria-pressed="false">Pause motion</button></nav></header><main id="top"><section class="hero"><div class="hero-copy"><div class="eyebrow"><span class="dot"></span>AI &amp; education</div><h1>Learning, <em>with intention.</em></h1><p class="intro">AI is becoming part of how we learn. Project Dux explores how to use it thoughtfully—while keeping curiosity, judgment, and independent thinking at the heart of education.</p><a class="link" href="#explore">Explore the ideas &nbsp; ↘</a></div><div class="art" role="img" aria-label="An abstract open book with a growing stem, surrounded by circular paths"><div class="orbit"></div><svg viewBox="0 0 500 500" fill="none" aria-hidden="true"><path d="M83 306c58-39 115-40 167 0v102c-52-40-109-39-167 0V306Z" fill="#f8f7eb" stroke="#536e4f" stroke-width="2"/><path d="M417 306c-58-39-115-40-167 0v102c52-40 109-39 167 0V306Z" fill="#f8f7eb" stroke="#536e4f" stroke-width="2"/><path d="M250 300V150M250 260c-3-43-28-67-65-74 1 39 22 68 65 74Zm0-35c4-40 29-65 67-70-3 40-26 65-67 70Z" stroke="#536e4f" stroke-width="3"/><path d="M250 260c-3-43-28-67-65-74 1 39 22 68 65 74Zm0-35c4-40 29-65 67-70-3 40-26 65-67 70Z" fill="#b7c991"/><circle cx="250" cy="137" r="12" fill="#536e4f"/><path d="M106 329c48-21 92-20 124 0m-124 19c48-21 92-20 124 0m40-19c32-20 76-21 124 0m-124 19c32-20 76-21 124 0" stroke="#b6c2a7" stroke-width="2"/></svg><span class="art-label">A practice of growing minds &nbsp; / &nbsp; 01</span></div></section><section class="section" id="explore"><div class="section-head"><div class="eyebrow">The exploration / 01</div><div><h2>Technology can support learning. <em>People give it direction.</em></h2><p>There is room for both possibility and caution. Dux is a place to consider what thoughtful use might look like for learners, educators, and families.</p></div></div><div class="paths"><article class="path"><span class="num">01 / UNDERSTAND</span><h3>Learn about AI</h3><p>Build an understanding of what AI tools do, where their answers can go wrong, and why checking information matters.</p></article><article class="path"><span class="num">02 / PRACTICE</span><h3>Learn with AI</h3><p>Explore how an AI tool might support questions, feedback, and creativity without taking over the work of learning.</p></article><article class="path"><span class="num">03 / REFLECT</span><h3>Learn without it</h3><p>Make space for struggle, imagination, and independent thought. Sometimes the most useful choice is to put the tool away.</p></article></div></section><section class="section practice" id="practice"><div><div class="eyebrow">A thoughtful pause / 02</div><h2>Before asking AI, <em>ask yourself.</em></h2><p>There is no single rule for every learner or classroom. These questions are starting points for a conversation, especially when children are involved.</p></div><div class="questions"><div class="question">What am I trying to learn for myself?</div><div class="question">Could I try, think, or create first?</div><div class="question">How will I check what the tool tells me?</div><div class="question">Is this appropriate for the learner and the setting?</div></div></section><section class="section research-intro" id="research"><div class="section-head"><div class="eyebrow">The research / 04</div><div><h2>Explore the evidence. <em>Keep asking.</em></h2><p>Research can help us ask better questions about how people learn with and without AI. Our library brings together studies, guidance, and the limits of what they can tell us.</p><a class="link" href="library/index.html">Open the research library &nbsp; ↗</a></div></div><div class="research-cards"><a class="research-card" href="library/01-ai-literacy.html"><span>01 / Understand</span><h3>AI literacy</h3><p>Learn to question an answer, assess its limits, and make decisions for yourself.</p></a><a class="research-card" href="library/02-teaching-and-implementation.html"><span>02 / Teach</span><h3>Learning in practice</h3><p>Explore what studies and educators’ frameworks suggest about thoughtful support.</p></a><a class="research-card" href="library/04-children-and-safeguards.html"><span>03 / Care</span><h3>Children &amp; safeguards</h3><p>Consider age, privacy, human support, and the questions that remain open.</p></a></div><p>Research snapshot: 12 November 2026. A starting collection, not a systematic review. <a href="library/06-method-and-questions.html">How we read the evidence ↗</a></p></section><section class="section evidence-brief" aria-labelledby="evidence-title"><div class="section-head"><div class="eyebrow">What the evidence can tell us</div><div><h2 id="evidence-title">The question matters as much as <em>the tool.</em></h2><p>Different studies measure different things. These are starting points for reading, with their context and limits close at hand.</p></div></div><div class="evidence-grid"><article><span class="evidence-label">Practice and learning</span><h3>Does support carry over?</h3><p>In one high-school mathematics study, help during practice and performance afterward told different stories. The result is specific to the tools and setting studied.</p><a href="library/source-s01.html">Read the study note ↗</a></article><article><span class="evidence-label">People and tools</span><h3>Who is being supported?</h3><p>One tutoring study tested suggestions for human tutors, while another examined human support for children using a reading platform. Their comparisons are different.</p><a href="library/19-comparing-support.html">Compare the approaches ↗</a></article><article><span class="evidence-label">Learning across ages</span><h3>What is still unknown?</h3><p>Adults, children, educators and families have different goals and needs. The evidence here does not establish a single best approach for everyone.</p><a href="library/20-literacy-across-ages.html">Explore literacy across ages ↗</a></article></div></section><section class="section origin" id="origin"><div class="eyebrow">Where it began / 03</div><div><blockquote>“AI might be a great tool for us in the future… but over-reliance on it seems like a terrifying prospect and a recipe for disaster.”</blockquote><p>— Spencer Hinson, in a Facebook post from August 13, 2023</p><p>That early reflection is an origin marker for Dux: an invitation to keep asking how we can welcome useful tools while protecting the learning process itself. The post is archived and visible only to its owner.</p><p>The post linked to a <a href="https://www.wbtv.com/2023/08/10/pros-cons-using-ai-classroom/">contemporaneous WBTV article on AI in the classroom ↗</a>. Its discussion provides historical context for questions about school rules, parental guidance, genuine learning, and unreliable AI output.</p></div></section><section class="related" aria-labelledby="related-title"><div class="eyebrow">More from Voelori</div><h2 id="related-title">Connected questions, different journeys.</h2><p>Our companion project <a href="https://dionnedeh.github.io/Project-Valens/">Valens</a> explores support around distress and distorted beliefs associated with chatbot use. <a href="https://dionnedeh.github.io/Project-Lux/">Lux</a> explores AI and energy innovation, beginning with fusion. <a href="https://dionnedeh.github.io/Project-Spira/">Spira</a> considers the electricity and water behind AI. Dux focuses on learning, teaching, and human judgment.</p></section></main><footer><div>Project Dux <span style="opacity:.6"> / A project by Voelori</span></div><div>Learning is a human journey.</div></footer><script>const b=document.getElementById('motion');b.addEventListener('click',()=>{const p=document.body.classList.toggle('paused');b.setAttribute('aria-pressed',String(p));b.textContent=p?'Resume motion':'Pause motion'});</script></body></html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="description" content="Project Dux explores thoughtful approaches to AI and education: learning about AI, learning with it, and keeping room to learn without it.">
+<title>Project Dux — Learning, with intention</title>
+<link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css?v=57640599b103">
+</head>
+<body>
+<a class="skip" href="#top">Skip to content</a>
+<header>
+  <a class="brand" href="#top">Project Dux <span>by Voelori</span></a>
+  <nav aria-label="Main navigation">
+    <a href="#explore">Explore</a>
+    <a href="#practice">In practice</a>
+    <a href="#tools">Tools</a>
+    <a href="library/index.html">Research library</a>
+    <a href="#origin">Origin</a>
+    <button class="motion" id="motion" type="button" hidden>Pause motion</button>
+  </nav>
+</header>
 
+<main id="top">
+<section class="hero">
+  <div class="hero-copy">
+    <div class="eyebrow"><span class="dot"></span>AI &amp; education</div>
+    <h1>Learning, <em>with intention.</em></h1>
+    <p class="intro">AI is becoming part of how we learn. Project Dux explores how to use it thoughtfully—while keeping curiosity, judgment, and independent thinking at the heart of education.</p>
+    <div class="hero-links">
+      <a class="link" href="#explore">Explore the ideas &nbsp; ↘</a>
+      <a class="link" href="#tools">Try the tools &nbsp; ↘</a>
+      <a class="link" href="library/index.html">Open the research library &nbsp; ↗</a>
+    </div>
+  </div>
+  <div class="art" role="img" aria-label="An abstract open book with a growing stem, surrounded by circular paths"><div class="orbit"></div><svg viewBox="0 0 500 500" fill="none" aria-hidden="true"><path d="M83 306c58-39 115-40 167 0v102c-52-40-109-39-167 0V306Z" fill="#f8f7eb" stroke="#536e4f" stroke-width="2"/><path d="M417 306c-58-39-115-40-167 0v102c52-40 109-39 167 0V306Z" fill="#f8f7eb" stroke="#536e4f" stroke-width="2"/><path d="M250 300V150M250 260c-3-43-28-67-65-74 1 39 22 68 65 74Zm0-35c4-40 29-65 67-70-3 40-26 65-67 70Z" stroke="#536e4f" stroke-width="3"/><path d="M250 260c-3-43-28-67-65-74 1 39 22 68 65 74Zm0-35c4-40 29-65 67-70-3 40-26 65-67 70Z" fill="#b7c991"/><circle cx="250" cy="137" r="12" fill="#536e4f"/><path d="M106 329c48-21 92-20 124 0m-124 19c48-21 92-20 124 0m40-19c32-20 76-21 124 0m-124 19c32-20 76-21 124 0" stroke="#b6c2a7" stroke-width="2"/></svg><span class="art-label">A practice of growing minds &nbsp; / &nbsp; 01</span></div>
+</section>
+
+<section class="section" id="explore" aria-labelledby="explore-title">
+  <div class="section-head">
+    <div class="eyebrow">The exploration / 01</div>
+    <div>
+      <h2 id="explore-title">Technology can support learning. <em>People give it direction.</em></h2>
+      <p>There is room for both possibility and caution. Dux is a place to consider what thoughtful use might look like for learners, educators, and families.</p>
+    </div>
+  </div>
+  <div class="paths">
+    <article class="path"><span class="num">01 / UNDERSTAND</span><h3>Learn about AI</h3><p>Build an understanding of what AI tools do, where their answers can go wrong, and why checking information matters.</p></article>
+    <article class="path"><span class="num">02 / PRACTICE</span><h3>Learn with AI</h3><p>Explore how an AI tool might support questions, feedback, and creativity without taking over the work of learning.</p></article>
+    <article class="path"><span class="num">03 / REFLECT</span><h3>Learn without it</h3><p>Make space for struggle, imagination, and independent thought. Sometimes the most useful choice is to put the tool away.</p></article>
+  </div>
+</section>
+
+<section class="section practice" id="practice" aria-labelledby="practice-title">
+  <div>
+    <div class="eyebrow">A thoughtful pause / 02</div>
+    <h2 id="practice-title">Before asking AI, <em>ask yourself.</em></h2>
+    <p>There is no single rule for every learner or classroom. These questions are starting points for a conversation, especially when children are involved.</p>
+  </div>
+  <div class="questions">
+    <div class="question">What am I trying to learn for myself?</div>
+    <div class="question">Could I try, think, or create first?</div>
+    <div class="question">How will I check what the tool tells me?</div>
+    <div class="question">Is this appropriate for the learner and the setting?</div>
+  </div>
+
+  <div class="tool" id="fit-tool" aria-labelledby="fit-title">
+    <div class="tool-head">
+      <h3 id="fit-title">What kind of help fits this moment?</h3>
+      <span class="tool-badge" data-kind="guide">Qualitative guide</span>
+    </div>
+    <p class="tool-lede">The same tool can help or get in the way, depending on what the moment is for. Start with the purpose, then choose the help.</p>
+    <div class="tool-field" id="fit-field" hidden>
+      <label for="fit-select">Pick a moment</label>
+      <select class="tool-select" id="fit-select">
+        <option value="practise" selected>Practising for a test</option>
+        <option value="draft">Feedback on my writing</option>
+        <option value="concept">Understanding something hard</option>
+        <option value="ideas">Brainstorming ideas</option>
+        <option value="facts">Checking a fact</option>
+        <option value="child">A young child exploring</option>
+      </select>
+    </div>
+    <p class="tool-verdict" id="fit-verdict" aria-live="polite">Make the first attempt yourself. If you get stuck, ask for a hint or a question, not the answer.</p>
+    <div class="tool-cols">
+      <div>
+        <h4>Try this</h4>
+        <ul id="fit-try">
+          <li>Work the problem alone first, and mark where you got stuck.</li>
+          <li>Ask for one hint or one question, not a worked solution.</li>
+          <li>Then redo it without help, and explain each step out loud.</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Keep in mind</h4>
+        <ul id="fit-watch">
+          <li>Practice that feels easier is not the same as learning. In one high-school maths study, open chat help raised practice scores but was followed by lower scores on a later test taken without it.</li>
+          <li>Feeling confident is not the same as being able to do it alone.</li>
+        </ul>
+      </div>
+    </div>
+    <p class="tool-more" id="fit-more">Read more: <a id="fit-link" href="library/03-learning-and-independence.html">Learning and independence →</a></p>
+    <noscript><p class="tool-note">This shows one moment: practising for a test. With JavaScript, the tool also covers feedback on writing, understanding a hard idea, brainstorming, checking a fact, and a young child exploring a chatbot. In each, start with the purpose, try first, and check what the tool says somewhere else.</p></noscript>
+  </div>
+  <details class="tool-key">
+    <summary>What the labels on these tools mean</summary>
+    <dl class="tool-key-list">
+      <div><dt><span class="tool-badge" data-kind="guide">Qualitative guide</span></dt><dd>Questions, prompts, and examples, with no figures and no scores. They draw on the research library but are not validated instruments.</dd></div>
+      <div><dt><span class="tool-badge" data-kind="illustration">Illustration</span></dt><dd>Arithmetic on numbers you choose. It is not an estimate of anything real.</dd></div>
+      <div><dt><span class="tool-badge" data-kind="published">Published estimate</span></dt><dd>A figure from a cited source, as that source reported it, inside that study’s setting. The dated findings further down use these.</dd></div>
+    </dl>
+  </details>
+</section>
+
+<section class="section tint" id="tools" aria-labelledby="sorting-title">
+  <div class="section-head">
+    <div class="eyebrow">Keep the thinking / 03</div>
+    <div>
+      <h2 id="sorting-title">Help that keeps the thinking <em>with you.</em></h2>
+      <p>Eight requests a learner might type. Sort each one: does it keep the thinking with the learner, or hand it over? There is no score. Each card shows one way to see it, and some honestly depend on the purpose.</p>
+    </div>
+  </div>
+  <div class="tool sorter" id="sort-tool" aria-labelledby="sort-tool-title">
+    <div class="tool-head">
+      <h3 id="sort-tool-title">Keep it, or hand it over?</h3>
+      <span class="tool-badge" data-kind="guide">Qualitative guide</span>
+    </div>
+    <div id="sort-play" hidden>
+      <p class="sort-count" id="sort-count">Card 1 of 8</p>
+      <p class="sort-card" id="sort-card">“Write my essay about the water cycle.”</p>
+      <div class="btn-row" id="sort-buttons">
+        <button class="btn" type="button" data-sort="keeps">Keeps the thinking with me</button>
+        <button class="btn" type="button" data-sort="hands">Hands the thinking over</button>
+      </div>
+      <div class="sort-feedback" id="sort-feedback" hidden aria-live="polite">
+        <h4 id="sort-feedback-title">One way to see it</h4>
+        <p id="sort-feedback-text"></p>
+        <button class="btn btn-primary" type="button" id="sort-next">Next card</button>
+      </div>
+      <div id="sort-done" hidden>
+        <h4 id="sort-done-title" tabindex="-1">Not a test, and not a score</h4>
+        <p>The same words can do different work. What matters is whether the learner still does the part that builds the skill: trying, choosing, checking, and explaining. Access support, like translation, can keep learning possible rather than replacing it.</p>
+        <ul class="sort-list" id="sort-summary"></ul>
+        <div class="btn-row"><button class="btn btn-primary" type="button" id="sort-again">Sort again</button><a class="btn" href="library/11-learning-activities.html">Learning activities to try →</a></div>
+      </div>
+    </div>
+    <div id="sort-static">
+      <p>Some pairs to compare:</p>
+      <ul class="sort-list">
+        <li>“Write my essay about the water cycle” hands the thinking over. “Ask me three questions that would make my essay stronger” keeps it with you.</li>
+        <li>“Give me the answer to question 4” skips the practice if you have not tried yet. “I got 12 for question 4. Where might my method have gone wrong?” keeps it.</li>
+        <li>“Summarise this chapter so I don’t have to read it” hands it over. “Quiz me on this chapter after I’ve read it” keeps it.</li>
+        <li>“Translate this article into my first language” depends on the purpose: often it is access support that makes the learning possible.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="roles" aria-labelledby="roles-title">
+  <div class="section-head">
+    <div class="eyebrow">People and tools / 04</div>
+    <div>
+      <h2 id="roles-title">A tool can help. <em>People stay responsible.</em></h2>
+      <p>Learners, educators, and families each hold parts of learning that a tool cannot. These two guides show who does what, and what to ask before a class or a family takes on a new AI tool.</p>
+    </div>
+  </div>
+
+  <div class="tool" id="roles-tool" aria-labelledby="roles-tool-title">
+    <div class="tool-head">
+      <h3 id="roles-tool-title">Who does what in a learning moment</h3>
+      <span class="tool-badge" data-kind="guide">Qualitative guide</span>
+    </div>
+    <p class="tool-lede">These are general patterns, not rules about any one person, class, or tool. Ages, needs, and settings change them.</p>
+    <fieldset class="tool-choices" id="roles-field" hidden>
+      <legend>Look at the part played by</legend>
+      <label class="chip"><input type="radio" name="role" value="learner" checked><span>The learner</span></label>
+      <label class="chip"><input type="radio" name="role" value="teacher"><span>An educator</span></label>
+      <label class="chip"><input type="radio" name="role" value="family"><span>A family</span></label>
+      <label class="chip"><input type="radio" name="role" value="tool"><span>An AI tool</span></label>
+    </fieldset>
+    <p class="role-summary" id="roles-summary" aria-live="polite">The learner does the part that builds the skill: trying, choosing, checking, and explaining. Others can support that work, but cannot do it for them.</p>
+    <table class="role-table">
+      <caption class="tool-note" id="roles-caption">The learner’s part</caption>
+      <tbody id="roles-body">
+        <tr><th scope="row">Set the goal</th><td><span class="role-tag" data-role="help">Can help</span>Says what they want to understand or be able to do.</td></tr>
+        <tr><th scope="row">Do the thinking</th><td><span class="role-tag" data-role="main">Main role</span>Makes the attempt, gets stuck, and works it through.</td></tr>
+        <tr><th scope="row">Give feedback</th><td><span class="role-tag" data-role="help">Can help</span>Reviews their own work and, sometimes, a peer’s.</td></tr>
+        <tr><th scope="row">Judge what was learned</th><td><span class="role-tag" data-role="help">Can help</span>Can explain what they understand, and where they are unsure.</td></tr>
+        <tr><th scope="row">Protect personal information</th><td><span class="role-tag" data-role="help">Can help</span>Chooses what to type, with guidance suited to their age.</td></tr>
+      </tbody>
+    </table>
+    <noscript><p class="tool-note">This shows the learner’s part. With JavaScript, the tool also shows the parts played by an educator, a family, and an AI tool.</p></noscript>
+  </div>
+
+  <div class="tool steps" id="adopt-tool" aria-labelledby="adopt-title">
+    <div class="tool-head">
+      <h3 id="adopt-title">Before taking on a new AI tool: step by step</h3>
+      <span class="tool-badge" data-kind="guide">Qualitative guide</span>
+    </div>
+    <p class="tool-lede">For an educator, a school, or a family. Open any step. None of this is legal advice; rules differ by place and change over time.</p>
+    <details><summary>1. Name the learning goal</summary><p>What should the learner be able to understand or do afterward? If the tool would do that part for them, look for another way, or keep the tool for a different step.</p></details>
+    <details><summary>2. Ask who could be left out</summary><p>Think about cost, devices, connection, language, and disability. Participation in an AI activity should not be the only route to the learning goal, and accessibility support should not be taken away in the name of “doing it without AI”.</p><p><a href="library/13-accessibility-and-participation.html">Accessibility and participation →</a></p></details>
+    <details><summary>3. Read what happens to the data</summary><ul><li>What does it collect, and why?</li><li>Is anything used to train models or for advertising?</li><li>How long is it kept, and how is it deleted?</li><li>Who approved it, and is there an agreement?</li></ul><p>In the United States, the Department of Education and the FTC publish guidance for schools on these questions. <a href="library/09-privacy-accountability.html">Privacy, data and accountability →</a></p></details>
+    <details><summary>4. Check age rules and child safeguards</summary><p>Services set their own age terms and laws differ by country. Child-rights guidance raises particular concerns about chatbots that present themselves as friends. There is no universal safe age.</p><p><a href="library/04-children-and-safeguards.html">Children and safeguards →</a></p></details>
+    <details><summary>5. Decide what stays human-led</summary><p>Which feedback, judgments, and conversations stay with a person? Who checks generated facts before they are taught?</p><p><a href="library/17-teacher-work-and-agency.html">Teacher work, support and agency →</a></p></details>
+    <details><summary>6. Plan how you will know it helped</summary><p>Look beyond impressions and practice scores. A later task done without the tool, or an explanation in the learner’s own words, says more. Compare with the alternative you would otherwise use.</p><p><a href="library/22-reading-studies.html">Reading claims carefully →</a></p></details>
+    <details open><summary>7. Plan how to stop, and how to report a problem</summary><p>Know who to tell if something goes wrong, what would make you pause, and how a learner can opt out without losing out. If a child is at risk of harm, contact the appropriate local authorities or emergency services.</p><p><a href="library/14-governance-lifecycle.html">Governance across the life of a tool →</a></p></details>
+  </div>
+</section>
+
+<section class="section evidence-brief" aria-labelledby="evidence-title">
+  <div class="section-head">
+    <div class="eyebrow">What the evidence can tell us / 05</div>
+    <div>
+      <h2 id="evidence-title">The question matters as much as <em>the tool.</em></h2>
+      <p>Different studies measure different things. These are starting points for reading, with their context and limits close at hand.</p>
+    </div>
+  </div>
+  <div class="evidence-grid">
+    <article><span class="evidence-label">Practice and learning</span><h3>Does support carry over?</h3><p>In one high-school mathematics study, help during practice and performance afterward told different stories. The result is specific to the tools and setting studied.</p><a href="library/source-s01.html">Read the study note ↗</a></article>
+    <article><span class="evidence-label">People and tools</span><h3>Who is being supported?</h3><p>One tutoring study tested suggestions for human tutors, while another examined human support for children using a reading platform. Their comparisons are different.</p><a href="library/19-comparing-support.html">Compare the approaches ↗</a></article>
+    <article><span class="evidence-label">Learning across ages</span><h3>What is still unknown?</h3><p>Adults, children, educators and families have different goals and needs. The evidence here does not establish a single best approach for everyone.</p><a href="library/20-literacy-across-ages.html">Explore literacy across ages ↗</a></article>
+  </div>
+
+  <div class="tool" id="percent-tool" aria-labelledby="percent-title">
+    <div class="tool-head">
+      <h3 id="percent-title">Percent or points? Reading a result slowly</h3>
+      <span class="tool-badge" data-kind="illustration">Illustration</span>
+    </div>
+    <p class="tool-lede">Studies often report a difference “relative to” a comparison group. A percentage of an average is not the same as percentage points. Choose any two numbers to see the difference. They are examples, not results from any study.</p>
+    <div id="percent-controls" hidden>
+      <div class="tool-field">
+        <label for="percent-base">Comparison group’s average score, out of 100</label>
+        <div class="range-row"><input type="range" id="percent-base" min="10" max="100" step="1" value="60"><output id="percent-base-out" for="percent-base">60</output></div>
+      </div>
+      <div class="tool-field">
+        <label for="percent-change">Reported relative difference, as a percent lower</label>
+        <div class="range-row"><input type="range" id="percent-change" min="0" max="50" step="1" value="10"><output id="percent-change-out" for="percent-change">10%</output></div>
+      </div>
+    </div>
+    <div class="bars" aria-hidden="true">
+      <div class="bar-row"><span>Comparison</span><div class="bar-track"><div class="bar-fill" id="bar-base"></div></div><span id="bar-base-label">60</span></div>
+      <div class="bar-row"><span>Other group</span><div class="bar-track"><div class="bar-fill b-alt" id="bar-other"></div></div><span id="bar-other-label">54</span></div>
+    </div>
+    <p class="sum-line" id="percent-sum" aria-live="polite">10% lower than an average of 60 is 54: a gap of 6 points, not 10.</p>
+    <h4>What a single result cannot tell you, at any setting</h4>
+    <ul>
+      <li>Whether the same thing would happen with other learners, subjects, ages, or tools.</li>
+      <li>Whether the difference lasts, or how it compares with another way of teaching.</li>
+      <li>What any one learner in the study experienced.</li>
+    </ul>
+    <noscript><p class="tool-note">Without JavaScript the numbers stay at the example: 10% lower than an average of 60 is 54, a gap of 6 points.</p></noscript>
+  </div>
+</section>
+
+<section class="section tint" id="checkin" aria-labelledby="checkin-title">
+  <div class="section-head">
+    <div class="eyebrow">A private check-in / 06</div>
+    <div>
+      <h2 id="checkin-title">How am I <em>using it?</em></h2>
+      <p>Six quick questions for a learner to ask after using AI for schoolwork or study. Answers stay in this browser tab. Nothing is saved or sent, and the reflection is not a grade or a judgment.</p>
+    </div>
+  </div>
+  <div class="tool checkin" aria-labelledby="checkin-tool-title">
+    <div class="tool-head">
+      <h3 id="checkin-tool-title">After I used it</h3>
+      <span class="tool-badge" data-kind="guide">Qualitative guide</span>
+    </div>
+    <form id="checkin-form" novalidate>
+      <fieldset><legend>Did I try the task myself before asking?</legend><div class="yn"><label class="chip"><input type="radio" name="q1" value="yes"><span>Yes</span></label><label class="chip"><input type="radio" name="q1" value="no"><span>Not yet</span></label></div></fieldset>
+      <fieldset><legend>Could I explain the result to someone without the tool?</legend><div class="yn"><label class="chip"><input type="radio" name="q2" value="yes"><span>Yes</span></label><label class="chip"><input type="radio" name="q2" value="no"><span>Not yet</span></label></div></fieldset>
+      <fieldset><legend>Did I check at least one claim somewhere else?</legend><div class="yn"><label class="chip"><input type="radio" name="q3" value="yes"><span>Yes</span></label><label class="chip"><input type="radio" name="q3" value="no"><span>Not yet</span></label></div></fieldset>
+      <fieldset><legend>Did I keep personal details out of the chat?</legend><div class="yn"><label class="chip"><input type="radio" name="q4" value="yes"><span>Yes</span></label><label class="chip"><input type="radio" name="q4" value="no"><span>Not yet</span></label></div></fieldset>
+      <fieldset><legend>Do I know my class’s rules for AI on this task?</legend><div class="yn"><label class="chip"><input type="radio" name="q5" value="yes"><span>Yes</span></label><label class="chip"><input type="radio" name="q5" value="no"><span>Not yet</span></label></div></fieldset>
+      <fieldset><legend>Would I be comfortable telling my teacher how I used it?</legend><div class="yn"><label class="chip"><input type="radio" name="q6" value="yes"><span>Yes</span></label><label class="chip"><input type="radio" name="q6" value="no"><span>Not yet</span></label></div></fieldset>
+      <div class="btn-row" id="checkin-buttons" hidden><button class="btn btn-primary" type="submit">Show my reflection</button><button class="btn" type="reset" id="checkin-clear">Clear answers</button></div>
+    </form>
+    <div class="reflection" id="checkin-result" hidden tabindex="-1">
+      <h4 id="checkin-result-title">A reflection, not a grade</h4>
+      <p id="checkin-result-lede"></p>
+      <ul id="checkin-result-list"></ul>
+    </div>
+    <noscript><p class="tool-note">Without JavaScript, the questions still work as a list to think through. Any “not yet” is a place to look next, not a failure.</p></noscript>
+  </div>
+</section>
+
+<section class="section research-intro" id="research" aria-labelledby="research-title">
+  <div class="section-head">
+    <div class="eyebrow">The research / 07</div>
+    <div>
+      <h2 id="research-title">Explore the evidence. <em>Keep asking.</em></h2>
+      <p>Research can help us ask better questions about how people learn with and without AI. Our library brings together studies, guidance, and the limits of what they can tell us.</p>
+      <a class="link" href="library/index.html">Open the research library &nbsp; ↗</a>
+    </div>
+  </div>
+  <div class="research-cards">
+    <a class="research-card" href="library/01-ai-literacy.html"><span>01 / Understand</span><h3>AI literacy</h3><p>Learn to question an answer, assess its limits, and make decisions for yourself.</p></a>
+    <a class="research-card" href="library/02-teaching-and-implementation.html"><span>02 / Teach</span><h3>Learning in practice</h3><p>Explore what studies and educators’ frameworks suggest about thoughtful support.</p></a>
+    <a class="research-card" href="library/04-children-and-safeguards.html"><span>03 / Care</span><h3>Children &amp; safeguards</h3><p>Consider age, privacy, human support, and the questions that remain open.</p></a>
+  </div>
+
+  <h3 class="list-title">Dated findings</h3>
+  <p class="tool-note">Each line is <span class="tool-badge" data-kind="published">Published estimate</span> or a published description, inside that study’s own setting. Follow the link for design, sample, and limits.</p>
+  <ol class="findings" id="findings">
+    <!-- FINDINGS:START -->
+    <li><time datetime="2025-06-25">25 June 2025</time><p>At one Turkish high school, a standard GPT-4 chat interface raised practice scores, but students who had it scored 17% lower than controls on a later unassisted exam. A guarded tutor version largely avoided that drop. <a href="library/source-s01.html">Source note S01 →</a></p></li>
+    <li><time datetime="2025-06-03">3 June 2025</time><p>In one undergraduate physics course, students using a purpose-built AI tutor at home scored higher on an immediate post-test than after in-class active learning. The settings differed in more than the AI, and retention was not measured. <a href="library/source-s08.html">Source note S08 →</a></p></li>
+    <li><time datetime="2025-05">May 2025</time><p>A six-week, teacher-supported after-school program in Benin City, Nigeria, reported a 0.31 standard-deviation gain on a combined English, AI-knowledge and digital-skills test. Materials, adults, and AI were bundled together, and attrition differed between groups. <a href="library/source-s09.html">Source note S09 →</a></p></li>
+    <li><time datetime="2026-06">June 2026</time><p>Adding in-person engagement support to an AI reading platform for young children increased weekly use by about one to four minutes, from a low base. Reading outcomes were not significantly different. <a href="library/source-s22.html">Source note S22 →</a></p></li>
+    <li><time datetime="2026-06-18">18 June 2026</time><p>The OECD and European Commission published an AI literacy framework for primary and secondary education: understanding, critical evaluation, and ethical and creative use. It sets goals; it is not a trial. <a href="library/source-s18.html">Source note S18 →</a></p></li>
+    <li><time datetime="2026-09-18">18 September 2026</time><p>In a small Estonian study of 36 analysed students, a brief AI-literacy explanation did not significantly reduce adoption of incorrect AI advice, and rejection of correct advice rose. <a href="library/source-s07.html">Source note S07 →</a></p></li>
+    <li><time datetime="2026-10">October 2026</time><p>In Lima, Peru, teachers offered training plus an AI assistant scored higher on prompt-writing rubrics and judged weak AI output better, with no significant time savings across seven self-reported tasks. Student learning was not measured as an outcome here. <a href="library/source-s16.html">Source note S16 →</a></p></li>
+    <!-- FINDINGS:END -->
+  </ol>
+
+  <div class="limits">
+    <h3>What the research cannot say yet</h3>
+    <ul>
+      <li>How everyday AI use shapes learning and independent thinking over years, rather than weeks.</li>
+      <li>What happens when young children use general-purpose chatbots on their own.</li>
+      <li>Whether a short lesson about AI changes how people rely on it in ordinary use.</li>
+      <li>Which tutor designs and guardrails work across subjects, ages, languages, and countries.</li>
+      <li>Whether time a tool saves teachers turns into better learning for students.</li>
+    </ul>
+    <p class="tool-note">Many studies here are single-site, short, or preprints, and several bundle AI with human support. <a href="library/06-method-and-questions.html">Research method and open questions →</a></p>
+  </div>
+</section>
+
+<section class="section" id="reading" aria-labelledby="reading-title">
+  <div class="section-head">
+    <div class="eyebrow">Further reading / 08</div>
+    <div>
+      <h2 id="reading-title">Go to the <em>original sources.</em></h2>
+      <p>A short selection of public sources cited in the library, not a full bibliography. Each has a dated note in the <a href="library/07-source-records.html">annotated source catalogue</a>.</p>
+    </div>
+  </div>
+  <ul class="reading-list reading">
+    <li>UNESCO, <a href="https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research">Guidance for generative AI in education and research</a> (2023).</li>
+    <li>UNESCO, <a href="https://doi.org/10.54675/JKJB9835">AI competency framework for students</a> (2024), with its companion framework for teachers.</li>
+    <li>OECD and European Commission, <a href="https://doi.org/10.1787/65cd27d4-en">Empowering Learners for the Age of AI</a> (2026).</li>
+    <li>UNICEF Innocenti, <a href="https://www.unicef.org/innocenti/reports/policy-guidance-ai-children">Guidance on AI and children</a>, version 3.0 (2025).</li>
+    <li>Bastani and colleagues, <a href="https://www.pnas.org/doi/10.1073/pnas.2422633122">Generative AI without guardrails can harm learning</a>, <em>PNAS</em> (2025).</li>
+    <li>UNESCO GEM Report, <a href="https://www.unesco.org/gem-report/en/publication/technology">Technology in education: A tool on whose terms?</a> (2023).</li>
+    <li>NIST, <a href="https://doi.org/10.6028/NIST.AI.100-1">AI Risk Management Framework 1.0</a> (2023).</li>
+    <li>W3C, <a href="https://www.w3.org/TR/2024/REC-WCAG22-20241212/">Web Content Accessibility Guidelines 2.2</a> (2024).</li>
+  </ul>
+</section>
+
+<section class="section origin" id="origin" aria-labelledby="origin-title">
+  <div class="eyebrow">Where it began / 09</div>
+  <div>
+    <h2 id="origin-title" class="visually-quiet">Where it began</h2>
+    <blockquote>“AI might be a great tool for us in the future… but over-reliance on it seems like a terrifying prospect and a recipe for disaster.”</blockquote>
+    <p>— Spencer Hinson, in a Facebook post from August 13, 2023</p>
+    <p>That early reflection is an origin marker for Dux: an invitation to keep asking how we can welcome useful tools while protecting the learning process itself. The post is archived and visible only to its owner.</p>
+    <p>The post linked to a <a href="https://www.wbtv.com/2023/08/10/pros-cons-using-ai-classroom/">contemporaneous WBTV article on AI in the classroom ↗</a>. Its discussion provides historical context for questions about school rules, parental guidance, genuine learning, and unreliable AI output.</p>
+  </div>
+</section>
+
+<section class="section tint" id="timeline" aria-labelledby="timeline-title">
+  <div class="section-head">
+    <div class="eyebrow">Project timeline / 10</div>
+    <div>
+      <h2 id="timeline-title">How Dux <em>has grown.</em></h2>
+      <p>Dated marks from Voelori’s work on Project Dux. Site changes are listed in Eastern time, from their merge commits.</p>
+    </div>
+  </div>
+  <ol class="timeline" id="timeline-list">
+    <li><time datetime="2023-08-13">13 August 2023</time><p>The origin reflection is posted.</p></li>
+    <li><time datetime="2026-11-12T01:25-05:00">12 November 2026, 1:25 a.m.</time><p>A visual draft of the homepage is published on GitHub Pages.</p></li>
+    <li><time datetime="2026-11-12T01:42-05:00">12 November 2026, 1:42 a.m.</time><p>The <a href="library/index.html">research library</a> opens, with chapters and an annotated source catalogue.</p></li>
+    <li><time datetime="2026-11-12T01:50-05:00">12 November 2026, 1:50 a.m.</time><p>The library expands to more source notes, with type and topic filters.</p></li>
+    <li><time datetime="2026-11-12T01:55-05:00">12 November 2026, 1:55 a.m.</time><p>Library assets gain version stamps, so catalogue search never meets an old cached script.</p></li>
+    <!-- TIMELINE:NEXT -->
+  </ol>
+</section>
+
+<section class="related" aria-labelledby="related-title">
+  <div class="eyebrow">More from Voelori</div>
+  <h2 id="related-title">Connected questions, different journeys.</h2>
+  <p>Our companion project <a href="https://dionnedeh.github.io/Project-Valens/">Valens</a> explores support around distress and distorted beliefs associated with chatbot use. <a href="https://dionnedeh.github.io/Project-Lux/">Lux</a> explores AI and energy innovation, beginning with fusion. <a href="https://dionnedeh.github.io/Project-Spira/">Spira</a> considers the electricity and water behind AI. Dux focuses on learning, teaching, and human judgment.</p>
+</section>
+</main>
+
+<footer><div>Project Dux <span class="soft"> / A project by Voelori</span></div><div>Learning is a human journey.</div></footer>
+<p class="footer-note">Project Dux is general information for learners, families, and educators. It is not legal, medical, or safeguarding advice, and it does not replace the judgment of a learner’s teachers, caregivers, or school. If a child is in immediate danger, contact local emergency services.</p>
+<script src="site.js?v=4c2d8d1fd87f" defer></script>
+</body>
+</html>

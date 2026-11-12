@@ -1,0 +1,21 @@
+name: Site check
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Rebuild the library
+        run: python tools/build_library.py
+      - name: Committed pages must match a fresh build
+        run: git diff --exit-code --stat
+      - name: Check links, anchors, assets and structure
+        run: python tools/check_library.py
