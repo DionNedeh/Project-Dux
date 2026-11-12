@@ -212,15 +212,15 @@ footer{flex-direction:column}
 .post-meta,.post-link{font-size:14px;color:var(--muted)}
 .tool-note{line-height:1.6}
 .practice{gap:40px 10%}
-.practice .tool-key{grid-column:1/-1;margin-top:0;padding:18px clamp(18px,3.5vw,40px)}
-.practice .tool-key-list{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px 32px;margin-top:18px}
-.practice .tool-key-list div{grid-template-columns:1fr;gap:10px}
-.practice .tool-key-list dt{margin:0}
-@media(max-width:900px){.practice .tool-key-list{grid-template-columns:1fr}}
+.tool .tool-key{margin:26px 0 0;padding:16px 0 0;border:0;border-top:1px solid var(--line);background:transparent}
+.tool .tool-key-list{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px 32px;margin-top:18px}
+.tool .tool-key-list div{grid-template-columns:1fr;gap:10px;align-content:start}
+.tool .tool-key-list dt{margin:0}
+@media(max-width:900px){.tool .tool-key-list{grid-template-columns:1fr}}
 @media(max-width:760px){.practice{gap:30px}}
-.practice .tool-key-list div{align-content:start}
 .fb-embed{margin:32px 0 8px}
 .fb-frame{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
 .fb-frame iframe{display:block;border:0;overflow:hidden;background:#fff;max-width:none}
 .fb-embed figcaption{font-size:14px;line-height:1.6;color:var(--muted);margin-top:10px;max-width:640px}
 .post-copy-title{font-size:clamp(28px,3vw,38px);letter-spacing:-.02em;margin:48px 0 0}
+@media(max-width:1000px){header{gap:16px}nav{gap:18px;min-width:0;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;padding:12px 0}nav::-webkit-scrollbar{display:none}}
