@@ -211,3 +211,11 @@ footer{flex-direction:column}
 .post-copy p{margin:0 0 1.1em;overflow-wrap:anywhere}
 .post-meta,.post-link{font-size:14px;color:var(--muted)}
 .tool-note{line-height:1.6}
+.practice{gap:40px 10%}
+.practice .tool-key{grid-column:1/-1;margin-top:0;padding:18px clamp(18px,3.5vw,40px)}
+.practice .tool-key-list{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px 32px;margin-top:18px}
+.practice .tool-key-list div{grid-template-columns:1fr;gap:10px}
+.practice .tool-key-list dt{margin:0}
+@media(max-width:900px){.practice .tool-key-list{grid-template-columns:1fr}}
+@media(max-width:760px){.practice{gap:30px}}
+.practice .tool-key-list div{align-content:start}
