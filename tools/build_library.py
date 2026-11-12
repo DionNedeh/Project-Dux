@@ -9,7 +9,7 @@ FILES = sorted(RESEARCH.glob('[0-9][0-9]-*.md'))
 
 def inline(s):
     s = html.escape(s, quote=False)
-    s = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', lambda m: '<a href="'+html.escape(re.sub(r'\.md(?=#|$)', '.html', m[2]), quote=True)+'">'+m[1]+'</a>', s)
+    s = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', lambda m: '<a href="'+re.sub(r'\.md(?=#|$)', '.html', m[2]).replace('"', '&quot;')+'">'+m[1]+'</a>', s)
     s = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', s)
     s = re.sub(r'(?<!\*)\*([^*]+)\*', r'<em>\1</em>', s)
     return s
