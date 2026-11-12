@@ -218,9 +218,5 @@ footer{flex-direction:column}
 .tool .tool-key-list dt{margin:0}
 @media(max-width:900px){.tool .tool-key-list{grid-template-columns:1fr}}
 @media(max-width:760px){.practice{gap:30px}}
-.fb-embed{margin:32px 0 8px}
-.fb-frame{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
-.fb-frame iframe{display:block;border:0;overflow:hidden;background:#fff;max-width:none}
-.fb-embed figcaption{font-size:14px;line-height:1.6;color:var(--muted);margin-top:10px;max-width:640px}
 .post-copy-title{font-size:clamp(28px,3vw,38px);letter-spacing:-.02em;margin:48px 0 0}
 @media(max-width:1000px){header{gap:16px}nav{gap:18px;min-width:0;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;padding:12px 0}nav::-webkit-scrollbar{display:none}}

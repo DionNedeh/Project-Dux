@@ -23,14 +23,14 @@ Each tool opens with a one-line takeaway, works without JavaScript (the page shi
 | Percent or points? | Illustration | Two sliders show why a relative difference is not a difference in points. |
 | After I used it | Qualitative guide | A private six-question check-in with a short reflection. |
 
-The tools draw on the library and add no new claims. The homepage and every library page carry a Content-Security-Policy that allows only the site’s own scripts, stylesheets and images. `origin.html` reproduces the origin post verbatim and also embeds the original public Facebook post; its policy additionally allows frames from `www.facebook.com`, and loading that page connects the reader’s browser to Facebook. It is the only page with third-party content.
+The tools draw on the library and add no new claims. The homepage and every library page carry a Content-Security-Policy that allows only the site’s own scripts, stylesheets and images. `origin.html` reproduces the origin post verbatim and links to the original public Facebook post; no page loads third-party content.
 
 ## Research library
 
 The library contains twenty-eight topical chapters, one annotated source catalogue with thirty-four individual source notes, a method and explicit gaps. Source notes distinguish experiments from surveys and institutional guidance, report access limitations, and keep paper versions apart. Original third-party publications are linked, not redistributed. Each page has an “On this page” list where useful, section links, reading time, previous and next links, and links between chapters and the sources they cite. The catalogue has full-text search, type and topic filters, and sorting.
 
 - `index.html`, `styles.css`, `site.js`: the hand-written homepage, its stylesheet and its tools.
-- `origin.html`: the August 13, 2023 origin post, embedded from Facebook and copied verbatim.
+- `origin.html`: the August 13, 2023 origin post, copied verbatim, with a link to the original on Facebook.
 - `research/`: maintained Markdown research and source notes.
 - `library/`: generated static pages, stylesheet, and browser-local search and filters.
 - `404.html`: generated not-found page with absolute links.
