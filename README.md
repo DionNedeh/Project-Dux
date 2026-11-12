@@ -4,11 +4,11 @@ Project Dux is Voelori’s exploration of AI in education: learning about AI, us
 
 ## Research library
 
-The site retains its original introduction, paths, thoughtful-pause questions, origin reflection, leaf illustration, and motion control. It adds a research entry point and links to companion projects with distinct subjects. The library contains eighteen topical chapters and one annotated source catalogue, with a method and explicit gaps. Source notes distinguish experiments from institutional guidance and report access limitations. Original third-party publications are linked, not redistributed.
+The site retains its original introduction, paths, thoughtful-pause questions, origin reflection, leaf illustration, and motion control. It adds a research entry point and links to companion projects with distinct subjects. The library contains twenty-three topical chapters and one annotated source catalogue, with individual source notes, with a method and explicit gaps. Source notes distinguish experiments from institutional guidance and report access limitations. Original third-party publications are linked, not redistributed.
 
 - `index.html`: homepage and artwork.
 - `research/`: maintained Markdown research and source notes.
-- `library/`: generated static pages, stylesheet, and browser-local full-text chapter filter.
+- `library/`: generated static pages, stylesheet, and browser-local full-text and topic filters.
 - `tools/build_library.py`: deterministic library generator, Python standard library only.
 - `tools/check_library.py`: local structural and link checks.
 - `.github/workflows/pages.yml`: existing Pages workflow; it publishes the repository root on pushes to `main`.
