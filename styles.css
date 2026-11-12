@@ -219,3 +219,8 @@ footer{flex-direction:column}
 @media(max-width:900px){.practice .tool-key-list{grid-template-columns:1fr}}
 @media(max-width:760px){.practice{gap:30px}}
 .practice .tool-key-list div{align-content:start}
+.fb-embed{margin:32px 0 8px}
+.fb-frame{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.fb-frame iframe{display:block;border:0;overflow:hidden;background:#fff;max-width:none}
+.fb-embed figcaption{font-size:14px;line-height:1.6;color:var(--muted);margin-top:10px;max-width:640px}
+.post-copy-title{font-size:clamp(28px,3vw,38px);letter-spacing:-.02em;margin:48px 0 0}
