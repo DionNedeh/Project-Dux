@@ -23,5 +23,10 @@ Research snapshot: 12 November 2026. This library examines learning about AI, le
 - [16 — Glossary](16-glossary.md)
 - [17 — Teacher work and agency](17-teacher-work-and-agency.md)
 - [18 — Relationships and belonging](18-community-and-belonging.md)
+- [19 — Comparing educational support](19-comparing-support.md)
+- [20 — AI literacy across ages](20-literacy-across-ages.md)
+- [21 — Evidence for adult learning](21-adult-learning-evidence.md)
+- [22 — Reading studies](22-reading-studies.md)
+- [23 — Access and actual use](23-access-and-use.md)
 
 The Markdown chapters are the source of the public HTML pages. `python tools/build_library.py` regenerates them; `python tools/check_library.py` verifies local links, IDs, required records and key original page content. There is no collection of user inputs or third-party runtime script.

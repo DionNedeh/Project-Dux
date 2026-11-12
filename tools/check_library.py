@@ -25,7 +25,7 @@ for p, scan in pages.items():
         if not target.is_relative_to(root.resolve()) or not target.is_file(): errors.append(f'{p}: missing local target {link}'); continue
         if u.fragment and (target not in pages or unquote(u.fragment) not in pages[target].ids): errors.append(f'{p}: missing anchor {link}')
 source=(root/'research/07-source-records.md').read_text(encoding='utf-8')
-for i in range(1,18):
+for i in range(1,23):
     if f'id="s{i:02}"' not in source: errors.append(f'missing source S{i:02}')
 index=(root/'index.html').read_text(encoding='utf-8')
 for expected in ['An abstract open book with a growing stem','What am I trying to learn for myself?', 'Spencer Hinson', 'Pause motion', 'library/index.html']:
@@ -33,4 +33,4 @@ for expected in ['An abstract open book with a growing stem','What am I trying t
 if 'A visual draft for discussion' in index: errors.append('draft label remains')
 if errors:
     print('\n'.join(errors)); sys.exit(1)
-print(f'PASS: {len(pages)} HTML pages, local references and anchors, unique IDs, seventeen source IDs, and key homepage content.')
+print(f'PASS: {len(pages)} HTML pages, local references and anchors, unique IDs, twenty-two source IDs, and key homepage content.')
