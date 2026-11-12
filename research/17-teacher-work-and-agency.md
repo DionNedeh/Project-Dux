@@ -15,3 +15,7 @@ A teacher can use a system to generate alternatives or examples, then check fact
 ## Professional learning
 
 Consider practical evaluation, privacy, bias, human accountability and pedagogical design, not only prompting. A framework can specify valuable competencies without proving a particular workshop achieves them. Evaluate training over time with teachers and learners, and give people an accessible path to raise concerns.
+
+## Further in the library
+
+For survey figures on teachers’ AI use, guidance and self-estimated time savings, and why they differ from measured results, see [How AI is being used: what surveys show](28-what-surveys-show.md).

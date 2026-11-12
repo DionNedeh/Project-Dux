@@ -13,3 +13,7 @@ Consider a pause when the activity calls for independent practice, when answers 
 ## Check the outcome, not just the impression
 
 The Turkish researchers observed a mismatch between students’ perceptions and exam outcomes. An independent explanation, later application or appropriately accessible assessment can offer more information than confidence alone. These checks should be proportionate, support learners rather than punish them, and be compared with alternatives. Long-term effects remain open. [S01](07-source-records.md#s01)
+
+## Further in the library
+
+For how different kinds of help compare, see [Solutions, explanations and hints](24-solutions-and-explanations.md). For what studies say about effort, confidence and over-reliance, see [Effort, confidence and reliance](25-effort-confidence-reliance.md).

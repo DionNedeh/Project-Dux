@@ -11,3 +11,7 @@ Providing an account does not ensure a tool works with assistive technology, pro
 The Harvard physics experiment supplies evidence from an undergraduate course, not all adult education. Its participants and course content may differ from workplace training, community education or independent study. The study measured immediate post-tests; it cannot establish durable transfer to other tasks. [S08](07-source-records.md#s08)
 
 The research base collected here leaves significant gaps in older adult learners, adult basic education, disability, multilingual contexts, and low-connectivity settings. Future additions should seek primary studies with explicit comparators and document missing or conflicting findings. [S07](07-source-records.md#s07) [S09](07-source-records.md#s09)
+
+## Further in the library
+
+For tutoring programmes in Ghana, Nigeria and Peru, and what they do and do not show, see [AI tutoring in lower-income settings](26-tutors-in-lower-income-settings.md).

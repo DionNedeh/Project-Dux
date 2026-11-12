@@ -21,3 +21,7 @@ An exit ticket, an exam, a prompt-quality rubric, a self-report and a conversati
 ## What was accessible?
 
 An abstract may omit recruitment, missing data or adverse outcomes; a dataset card is not necessarily the paper. Access limitations in the [source records](07-source-records.md) describe the material Dux actually inspected. An inaccessible supplement is an unknown, not evidence of an absence.
+
+## Further in the library
+
+Two chapters apply these questions to current claims: [Effort, confidence and reliance](25-effort-confidence-reliance.md), on headlines about AI and the brain, and [How AI is being used: what surveys show](28-what-surveys-show.md), on survey figures.
