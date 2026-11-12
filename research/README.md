@@ -28,5 +28,10 @@ Research snapshot: 12 November 2026. This library examines learning about AI, le
 - [21 — Evidence for adult learning](21-adult-learning-evidence.md)
 - [22 — Reading studies](22-reading-studies.md)
 - [23 — Access and actual use](23-access-and-use.md)
+- [24 — Solutions, explanations and hints](24-solutions-and-explanations.md)
+- [25 — Effort, confidence and reliance](25-effort-confidence-reliance.md)
+- [26 — AI tutoring in lower-income settings](26-tutors-in-lower-income-settings.md)
+- [27 — Detection, trust and assessment design](27-detectors-and-assessment-design.md)
+- [28 — How AI is being used: what surveys show](28-what-surveys-show.md)
 
-The Markdown chapters are the source of the public HTML pages. `python tools/build_library.py` regenerates them; `python tools/check_library.py` verifies local links, IDs, required records and key original page content. There is no collection of user inputs or third-party runtime script.
+The Markdown chapters are the source of the public HTML pages. `python tools/build_library.py` regenerates them; `python tools/check_library.py` verifies local links and anchors, IDs, one h1 per page, versioned assets, sequential source records, the catalogue controls, the homepage tools and key original page content. There is no collection of user inputs or third-party runtime script.

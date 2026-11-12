@@ -18,12 +18,15 @@ TOPICS = {
     '06': 'evidence', '07': 'evidence', '08': 'assessment', '09': 'safety', '10': 'teaching', '11': 'literacy',
     '12': 'evidence', '13': 'access', '14': 'safety', '15': 'literacy', '16': 'evidence', '17': 'teaching',
     '18': 'children', '19': 'teaching', '20': 'literacy', '21': 'adult', '22': 'evidence', '23': 'children',
+    '24': 'independence', '25': 'independence', '26': 'access', '27': 'assessment', '28': 'evidence',
 }
 SOURCE_TOPICS = {
     '01': 'independence', '02': 'literacy', '03': 'teaching', '04': 'children', '05': 'children', '06': 'children',
     '07': 'literacy', '08': 'adult', '09': 'teaching', '10': 'adult', '11': 'safety', '12': 'safety', '13': 'safety',
     '14': 'access', '15': 'access', '16': 'teaching', '17': 'adult', '18': 'literacy', '19': 'teaching',
-    '20': 'literacy', '21': 'adult', '22': 'children',
+    '20': 'literacy', '21': 'adult', '22': 'children', '23': 'independence', '24': 'independence', '25': 'adult',
+    '26': 'independence', '27': 'evidence', '28': 'access', '29': 'assessment', '30': 'assessment', '31': 'children',
+    '32': 'children', '33': 'teaching', '34': 'children',
 }
 LABELS = {
     'evidence': 'Reading evidence', 'literacy': 'AI literacy', 'teaching': 'Teaching',

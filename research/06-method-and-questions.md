@@ -19,3 +19,7 @@ Source notes identify the source version, design, population or non-study status
 ## Maintenance
 
 Recheck volatile policies and product terms at use. Record source version, date, access and correction history before changing claims. Preserve material conflicts. Confirm source links and exact denominators, review a representative range of evidence including adverse results, and assess accessibility before publishing. [Source records](07-source-records.md)
+
+## Second review round
+
+On 12 November 2026, twelve sources were added (S23 to S34) on kinds of help, effort and reliance, tutoring in lower-income settings, AI-text detection, assessment design and survey evidence on use. Two candidates were not added because their official texts could not be inspected: the education provisions of the EU AI Act, which commentary reports were amended in 2026, and two RAND reports on AI use in US schools. They remain open leads. The round did not find long-term studies of everyday AI use, or studies of young children using general-purpose chatbots on their own; both remain gaps.

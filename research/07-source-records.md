@@ -1,6 +1,6 @@
 # Annotated source records
 
-Research snapshot: 12 November 2026. Source access describes the material actually inspected, not an assertion that unavailable material is absent. Counts refer to the units named.
+Research snapshot: 12 November 2026. Source access describes the material actually inspected, not an assertion that unavailable material is absent. Counts refer to the units named. Records S23 to S34 were added in a second review round on the same date: S23 to S28 on learning, effort and tutoring, and S29 to S34 on assessment and on how AI is used in schools. Two further candidates, the EU AI Act’s education provisions and two RAND survey reports, were not added because their official texts could not be inspected.
 
 ## Evidence records
 
@@ -202,3 +202,293 @@ Research snapshot: 12 November 2026. Source access describes the material actual
 **Access and design:** Working-paper methods and selected results inspected; preregistration and underlying data not independently checked. Two individually randomized trials compared an AI reading platform with the same platform plus in-person engagement support. District A assigned 84 treatment and 90 control students in grades 1–5; District B assigned 36 treatment and 145 control students in grades 1–3, 355 children total. The human role focused on engagement and troubleshooting, not direct reading instruction; scheduled intervention structures differed. The study is not a comparison of AI tutoring with human instruction or no tutoring.
 
 **Finding and limits:** The paper reports roughly one additional minute per week of platform use in district A and 4.4 in district B, with low usage overall. Exploratory reading achievement outcomes were not significantly different; this does not prove no effect. Districts, measures and implementation varied, and the provider’s recommended usage level is a provider claim, not an established universal threshold.
+
+<a id="s23"></a>
+
+### S23 — How students use a chatbot while learning to code
+
+**Source:** Matthias Lehmann, Philipp B. Cornelius and Fabian J. Sting, *AI Meets the Classroom: When Do Large Language Models Harm Learning?*, [arXiv:2409.09047v2](https://arxiv.org/abs/2409.09047v2), revised 8 March 2025. It was first submitted on 29 August 2024 as [v1](https://arxiv.org/abs/2409.09047v1) under the title "AI Meets the Classroom: When Does ChatGPT Harm Learning?" DOI [10.48550/arXiv.2409.09047](https://doi.org/10.48550/arXiv.2409.09047). Crossref also lists an SSRN version under the v1 title, [doi:10.2139/ssrn.4941259](https://doi.org/10.2139/ssrn.4941259). The SSRN page refused the connection and was not inspected. Preprint or working paper. As of 12 November 2026, no journal publication was found and peer-review status is not established.
+
+**Access and design:** The arXiv version history and the selected methods, results, exploratory analyses and limitations of the 38-page v2 PDF were inspected. The pre-registrations (AsPredicted links in the paper) and any data were not inspected. The paper reports three studies:
+
+- **Study 1** is an observational field study of two graduate Python courses at a public Dutch university in spring 2023. It covers 56 and 57 students, and the analysis unit is the student–question: 6,775 possible observations, 6,594 analysed after unanswered questions were excluded. Students cannot be seen using ChatGPT. Use is estimated from how similar each submission is to 50 regenerated ChatGPT (gpt-3.5-turbo-0613) solutions, and ChatGPT outages serve as an instrument.
+- **Study 2** is a pre-registered, incentivized laboratory experiment at a public German university in June 2024. Individual students were randomized to have or not have a ChatGPT (gpt-3.5-turbo-0125) chat window during a 45-minute Python learning phase. Pre-test and post-test each had 20 questions in 20 minutes, with no AI access. 108 were recruited and 107 analysed after one pre-registered exclusion. Most had no Python experience (79%) or were beginners (17%). The lab computers blocked copy and paste, which the authors say was unintended.
+- **Study 3** repeated Study 2 three weeks later with copy and paste enabled: 72 enrolled, 69 analysed.
+
+Exploratory analyses pool Studies 2 and 3: 176 participants, 94 of them with chatbot access. They hand-code the messages participants sent as requests for solutions or for explanations. Studies, students, student–questions and chatbot messages are distinct units.
+
+**Finding:** Neither experiment found a statistically significant effect of chatbot access on post-test learning. In Study 2, adjusted p = .580. In Study 3, adjusted p = .298. In Study 3, access increased the number of practice questions completed during the learning phase (p = .013). The exploratory analyses report the following:
+
+- **Copy and paste:** with copy and paste enabled, participants asked for more solutions but not more explanations. Holding learning-phase progress constant, Study 3's treated participants solved about 1.4 fewer post-test questions than Study 2's.
+- **Explanations:** asking for explanations was associated with higher post-test performance at a given level of progress (p = .05).
+- **Prior knowledge:** participants with lower pre-test scores benefited less than those with higher scores.
+- **Perceived learning:** chatbot access raised self-rated learning beyond what measured learning explains.
+
+These findings do not establish that substitution causes poorer understanding in general:
+
+- The copy-and-paste contrast compares two sequential studies, not randomized arms within one study.
+- Requests for explanations were not randomized.
+- The prior-knowledge split is a median split on the pre-test.
+
+The field result rests on a similarity proxy for AI use in two courses at one institution. Sessions were short, participants were mostly novice university students, and the model is from 2024. Effects on school-age learners, other subjects, other tools or longer-term retention are not established.
+
+<a id="s24"></a>
+
+### S24 — EEG study of essay writing with ChatGPT, search or no tool
+
+**Source:** Nataliya Kosmyna, Eugene Hauptmann, Ye Tong Yuan, Jessica Situ, Xian-Hao Liao, Ashly Vivian Beresnitzky, Iris Braunstein and Pattie Maes, *Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task*, [arXiv:2506.08872v2](https://arxiv.org/abs/2506.08872v2), revised 31 December 2025. The original v1 was submitted on 10 June 2025. DOI [10.48550/arXiv.2506.08872](https://doi.org/10.48550/arXiv.2506.08872). The PDF footer reads "Preprint, under review." As of 12 November 2026, no peer-reviewed publication was found, and peer-review status is not established. A [comment by Miloš Stanković, Ella Hirche, Sarah Kollatzsch and Julia Nadine Doetsch, arXiv:2601.00856](https://arxiv.org/abs/2601.00856) (29 December 2025, itself a preprint) was also located. Only its abstract was inspected.
+
+**Access and design:** The arXiv version history was inspected, along with selected sections of the 216-page v2 PDF: abstract, summary table, participants, protocol, session 1 and session 4 interview results, the EEG statistics description and limitations. The full EEG, NLP and appendix analyses were not reviewed. Data and code were not inspected. It was not established what changed between v1 and v2.
+
+- **Sample:** 60 adults were recruited and 55 completed at least three sessions. 54 are reported, 18 per group, from five universities in the Boston area. The paper reports ages 18–39 with M = 22.9 and SD = 1.69.
+- **Assignment:** participants were randomly assigned to three groups, balanced for age and gender: ChatGPT only, web search with AI answers suppressed, or no tools. Each wrote a 20-minute essay on SAT-style prompts in each of three sessions over about four months while wearing a 32-channel EEG headset.
+- **Session 4:** this optional session had 18 participants who chose to return. Nine from the original ChatGPT group wrote without tools and nine from the original no-tool group used ChatGPT. Each chose from topics they had already written on. The search group had no session 4.
+- **Measures:** EEG connectivity (dDTF, with rmANOVA and FDR correction as described), NLP analysis of the essays, scoring by two English teachers and an AI judge, and interviews after each session. The interviews asked participants to quote their own essay.
+- **Units:** participants, sessions, essays and electrode-pair connections are distinct units.
+
+**Finding:**
+
+- **Connectivity:** the authors report the weakest EEG connectivity in the ChatGPT group, intermediate in the search group and strongest in the no-tool group.
+- **Quoting:** in session 1, 15 of 18 ChatGPT-group participants could not provide a quote from the essay they had just written, compared with 2 of 18 in each other group. None of the 18 ChatGPT-group participants gave a correct quote.
+- **Ownership:** ChatGPT-group participants reported lower ownership of their essays.
+
+"Cognitive debt" is the authors' interpretive framing. The study does not measure learning or retention beyond in-session recall and quoting, and EEG connectivity is not itself a learning outcome. The sample is small and drawn from nearby institutions. Session 4 is a self-selected subsample of 18, with nine per arm, writing on familiar topics. The task is a short timed essay with one chatbot. It does not establish long-term cognitive harm, effects on children, or effects of other ways of using AI. The commentary raises concerns about sample size, reproducibility, EEG methods, reporting inconsistencies and transparency. Whether the authors addressed these in v2 is not established.
+
+<a id="s25"></a>
+
+### S25 — Knowledge workers' self-reported critical thinking with generative AI
+
+**Source:** Hao-Ping (Hank) Lee, Advait Sarkar, Lev Tankelevitch, Ian Drosos, Sean Rintel, Richard Banks and Nicholas Wilson, "The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers," in *Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems* (CHI '25, Yokohama, 26 April–1 May 2025), [doi:10.1145/3706598.3713778](https://doi.org/10.1145/3706598.3713778). Crossref lists online publication on 25 April 2025, pages 1–22, CC BY 4.0. [Author-hosted PDF](https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf) on the [Microsoft Research publication page](https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers/).
+
+**Access and design:** Crossref metadata, the Microsoft Research page and the methods, results table, discussion and limitations of the 23-page author-hosted PDF were inspected. The PDF metadata is dated January 2025. The ACM Digital Library page returned a bot-check page and was not inspected, so equivalence of the author PDF to the ACM version of record is not established. CHI is a peer-reviewed venue, but the review process for this paper was not separately verified. Six of the seven authors list Microsoft Research affiliations and the first lists Carnegie Mellon University.
+
+- **Design:** a cross-sectional online survey on Prolific of adults who reported using generative AI at work at least once a week.
+- **Sample:** 333 responses were received and 14 excluded for low quality, leaving 319 participants. Of these, 159 were men and 153 women, 44.83% were aged 25–34, and the top countries of residence were the UK (37), Canada (25) and the US (20).
+- **Examples:** participants described 957 workplace examples, of which 936 were retained after 22 were removed. Examples are not people.
+- **Measures:** for each example, a yes/no item on whether critical thinking was enacted, five-point ratings of effort change for six Bloom's-taxonomy activities, and confidence items.
+- **Analysis:** mixed-effects regressions with a random intercept per participant and Benjamini–Hochberg correction across 98 predictors. Model Ns range from 753 to 930 examples because participants could answer N/A.
+
+**Finding:** Participants reported enacting critical thinking in 555 of 936 examples (59.29%). For each cognitive activity, most examples were rated "less" or "much less" effort with generative AI: 72% for knowledge, 79% comprehension, 69% application, 72% analysis, 76% synthesis and 55% evaluation. Higher task-specific confidence in the AI was associated with lower reported enaction of critical thinking (p < .001) and with lower reported effort for five of six activities. Higher self-confidence was associated with higher reported enaction (p = .026). Qualitative coding describes a shift toward verifying, integrating and overseeing AI output.
+
+All measures are self-reports in a single survey, so the associations are not causal estimates of AI's "impact." The authors note that participants sometimes conflated reduced effort in using the tool with reduced critical thinking. The sample is English-speaking, skews younger, and uses AI frequently. The study does not measure actual critical-thinking performance and does not cover students or children.
+
+<a id="s26"></a>
+
+### S26 — Chatbot, human expert, checklist or no support for essay revision
+
+**Source:** Yizhou Fan, Luzhen Tang, Huixiao Le, Kejie Shen, Shufang Tan, Yueying Zhao, Yuan Shen, Xinyu Li and Dragan Gašević, "Beware of metacognitive laziness: Effects of generative artificial intelligence on learning motivation, processes, and performance," *British Journal of Educational Technology* 56(2), 489–530. Crossref lists online publication on 10 December 2024 and the print issue as March 2025. [doi:10.1111/bjet.13544](https://doi.org/10.1111/bjet.13544). Also on [arXiv:2412.09315v1](https://arxiv.org/abs/2412.09315), submitted 12 December 2024, whose record links the journal DOI.
+
+**Access and design:** Crossref metadata and the arXiv record were inspected, along with the methods, results, discussion and limitations of the 43-page arXiv PDF. The Wiley article page returned a bot-check page and was not inspected, so equivalence of the arXiv text to the published version is not established. Crossref lists no correction. This is a journal article; the peer-review details were not separately verified. The appendix and trace data were not reviewed.
+
+- **Sample:** 117 university students (mean age 22.61, 70% identifying as female, 55% undergraduates) took part in a lab session between July and September 2023. All used English as a second language. The first author's affiliation is Peking University. The inspected text's methods do not name the country, and the participants' first language is redacted as "[disclosed]."
+- **Assignment:** individuals were randomized to no extra support (30), ChatGPT 4.0 (35), a human writing expert (25) or writing-analytics checklist tools (27).
+- **Chatbot conditions:** the ChatGPT condition ran through an API, was restricted to the task topics and was limited to advice rather than generating the essay. Whether one or several human experts provided support was not verified here.
+- **Task:** a two-hour reading and writing task, a one-hour revision with the assigned support, and a post-test within one day.
+- **Measures:** intrinsic motivation; self-regulated learning processes from logged clicks, keystrokes and page views; essay-score improvement; knowledge gain on a repeated knowledge test; and a transfer test.
+
+**Finding:** Essay-score improvement differed across groups (F = 4.549, p = .005). The ChatGPT group improved by about two points more on the essay score than each other group (mean differences 1.97–2.20), with adjusted p from .012 to .037. Knowledge-test post-scores did not differ significantly (p = .438), nor did transfer-test scores (p = .996) or intrinsic motivation. Process mining showed fewer metacognitive process transitions in the ChatGPT group, such as orientation and evaluation, than in the human-expert and checklist groups.
+
+"Metacognitive laziness" is the authors' interpretation of these process patterns. They state that targeted, mature measures of it were lacking. Essay-score gains measure a revised product made with support, not unassisted learning. The single task, short duration, modest group sizes and gender imbalance limit generalization. Non-significant differences do not establish equivalence or absence of an effect, and long-term effects were not measured.
+
+<a id="s27"></a>
+
+### S27 — ChatGPT-generated versus human-authored math hints
+
+**Source:** Zachary A. Pardos and Shreya Bhandari, "ChatGPT-generated help produces learning gains equivalent to human tutor-authored help on mathematics skills," *PLOS ONE* 19(5), e0304013, published 24 May 2024 (received 15 August 2023, accepted 3 May 2024). [doi:10.1371/journal.pone.0304013](https://doi.org/10.1371/journal.pone.0304013). Participant data: [doi:10.6084/m9.figshare.23935269](https://doi.org/10.6084/m9.figshare.23935269). An earlier pilot is the authors' preprint *Learning gain differences between ChatGPT and human tutor generated algebra hints*, [arXiv:2302.06871](https://arxiv.org/abs/2302.06871), submitted 14 February 2023.
+
+**Access and design:** The 18-page publisher PDF was inspected, covering methods, results, discussion and limitations. For the pilot, only the arXiv abstract page was inspected. The published peer-review history, the figshare data and the supplementary files were not inspected. The article is peer-reviewed.
+
+- **Design:** an online 3 × 4 experiment. Each participant was randomized to no hints, human tutor-authored hints or ChatGPT hints, and separately to one of four topics: Elementary, Intermediate or College Algebra, or Statistics.
+- **Participants:** Amazon Mechanical Turk workers with "Master" status and at least a high-school degree. They were adults, not school students, and their median age group was 36–40.
+- **Recruitment and exclusions:** 394 were recruited and 120 excluded for not attempting or not completing their assigned topic. That left 274: 90 control, 86 human hints and 98 ChatGPT hints.
+- **Procedure:** a three-item pre-test, five practice problems with the assigned help, and a post-test repeating the same three items. Payment was $8 for an expected 10–20 minutes.
+- **Hints:** ChatGPT 3.5 (the "Dec 15 Version") generated worked-solution hints. The second author checked them for a correct answer, correct work and appropriate language. Problems whose hints failed were replaced, so participants saw only hints that passed. On average 24 of the problems prompted (32%) failed this check.
+- **Units:** people, problems and hints are distinct units.
+
+**Finding:** Mean pre-to-post gains were 17.01 percentage points with ChatGPT hints (pre 43.51%, post 60.52%), 11.62 with human hints and 1.85 for controls. In post-hoc tests, ChatGPT hints differed significantly from control (p = .011). Human hints did not differ significantly from control (p = .087), and ChatGPT and human hints did not differ significantly from each other (p = .416). The authors report that pre-tests were even within each topic.
+
+The title's "equivalent" rests on a non-significant difference. No formal equivalence test was found in the sections inspected, so equivalence is not established. Hints were quality-screened by a person before learners saw them, so the result does not show that unchecked chatbot output is safe or effective. Further limits are the three-item measure, an immediate post-test, crowdworker adults, high attrition (about 30%) and a text-only 2023 model. The authors' earlier pilot (N = 77) reported the opposite direction, favouring human hints. Do not merge the two versions' findings.
+
+<a id="s28"></a>
+
+### S28 — WhatsApp math tutor in Ghanaian schools
+
+**Source:** Owen Henkel, Hannah Horne-Robinson, Nessie Kozhakhmetova and Amanda Lee, *Effective and Scalable Math Support: Evidence on the Impact of an AI-Tutor on Math Achievement in Ghana*, [arXiv:2402.09809](https://arxiv.org/abs/2402.09809). v1 was posted 15 February 2024 and v2 on 5 May 2024. DOI [10.48550/arXiv.2402.09809](https://doi.org/10.48550/arXiv.2402.09809).
+
+- The v2 PDF carries a different title: "Effective and Scalable Math Support: Experimental Evidence on the Impact of an AI-Math Tutor in Ghana."
+- Crossref lists a chapter with that title in *Artificial Intelligence in Education: Posters and Late Breaking Results…* (Communications in Computer and Information Science, Springer, published online 2 July 2024, pp. 373–381), [doi:10.1007/978-3-031-64315-6_34](https://doi.org/10.1007/978-3-031-64315-6_34). The chapter itself was not inspected because Springer refused the connection. Its relationship to v2 and its review process are not established.
+- A follow-up trial is registered as [AEA RCT Registry 14476](https://doi.org/10.1257/rct.14476). Only its Crossref record was seen, and no results were found.
+
+**Access and design:** The arXiv version history, the arXiv abstract page and the full v1 (9-page) and v2 (10-page) PDFs were inspected. The versions report different samples, and the arXiv abstract page still uses v1's figures:
+
+- **Students described:** v1 and the arXiv abstract page say “approximately 1,000” in grades 3–9; the v2 PDF says “approximately 500”.
+- **Baseline sample:** v1 reports 850, including 213 ninth-graders absent at endline; v2 reports 637 in grades 3–8 (336 treatment, 301 control).
+- **Completed both tests:** v1 reports 478; v2 reports 477 (241 control, 236 treatment; its Table 1 lists 237).
+- **Effect size:** 0.37 on the abstract page, 0.36 in the v1 text, and 0.36 in v2.
+
+Cite counts by version and do not substitute between them.
+
+- **Assignment:** schools were randomized. 11 Rising Academies schools were assigned, 6 to control and 5 to treatment, so the effective number of assigned units is small.
+- **Intervention:** for about 8 months of 2023, treatment students used Rori on school-provided phones in two 30-minute study-hall sessions a week, with teachers present, in addition to regular classes.
+- **Comparison:** the control had no equal-time alternative.
+- **Assessment:** the same 35-item grade 3–5 numeracy and algebra assessment at baseline (February) and endline (August).
+- **Analysis:** the inspected versions report student-level t-tests on growth scores. They do not describe adjustment for clustering by school.
+- **Usage data and affiliations:** v1 reports that individual attendance and usage were not tracked in detail. One author lists an affiliation with Rising Academies, which developed Rori.
+
+**Finding:** Mean growth was 5.13 points for treatment and 2.12 for control, a difference of 3.01 points on the 35-item test, reported as p < .001 and d = 0.36. Students who completed both tests had higher baseline scores than those who did not (22.26 versus 18.53). Ceiling effects affected older students.
+
+This is a first-year result for a supervised in-school supplement, not unsupervised home use. Because there was no equal-time control, extra practice time cannot be separated from AI features. The small number of randomized schools, the possible understatement of uncertainty from student-level tests, the attrition and the version inconsistencies limit confidence. The study does not establish effects on the grade-level curriculum, lasting gains, effects outside this school network, or the "extra year of learning" equivalence that the authors suggest.
+
+<a id="s29"></a>
+
+### S29 — AI-text detectors and non-native English writers
+
+**Source:** Weixin Liang, Mert Yuksekgonul, Yining Mao, Eric Wu and James Zou, “GPT detectors are biased against non-native English writers,” *Patterns* 4(7), 100779, July 2023, [doi:10.1016/j.patter.2023.100779](https://doi.org/10.1016/j.patter.2023.100779). Author-posted version: [arXiv:2304.02819v3](https://arxiv.org/abs/2304.02819v3), 10 July 2023. Earlier versions are v1 (6 April 2023) and v2 (18 April 2023).
+
+**Access and design:** The arXiv abstract page, version history and full 9-page v3 PDF were inspected. The v3 abstract points to the published *Patterns* article. The publisher's full text and PDF returned HTTP 403, so the published version was not checked and its match to v3 is not established. Crossref metadata for the DOI was inspected. It gives volume 4, issue 7, article number 100779, issue date July 2023, publisher Elsevier, and a CC BY-NC-ND 4.0 licence for the version of record. It lists no correction or update. That is not proof that none exists. The publisher's article-type label (for example, research article or opinion) was not inspected. The study is a small benchmarking study of text, with no human participants. Its units are essays and other texts, not writers:
+- **Main comparison:** seven off-the-shelf detectors, accessed 15 March 2023, were run on 91 human-written TOEFL essays and 88 US eighth-grade essays. The TOEFL essays (year ≤ 2020) came from a Chinese educational forum. The eighth-grade essays came from the Hewlett Foundation ASAP dataset.
+- **Detectors:** Originality.AI, Quil.org, Sapling, the OpenAI detector hosted on Hugging Face, Crossplag, GPTZero and ZeroGPT.
+- **Rewriting experiments:** the researchers used ChatGPT to rewrite essays, with the “March 14 version of ChatGPT 3.5” stated in the methods. The discussion section refers to a “GPT-4 intervention” for the TOEFL rewrite. This inconsistency is not resolved in v3.
+- **Bypass experiments:** 31 usable ChatGPT-3.5 college-admission essays were generated, from 70 attempts across 7 Common App prompts. A separate set used 145 Stanford CS224n project titles.
+- **Statistics:** perplexity was measured with GPT-2 XL. Comparisons used one-sided paired t-tests.
+- **Code and data:** stated to be on GitHub and Zenodo. Neither was rerun here.
+- **Limitations stated by the authors:** small samples; most detectors used GPT-2 backbones; and only perplexity-based and supervised detectors were covered.
+
+**Finding:** For the TOEFL essays, v3 reports an average false-positive rate of 61.22% across the seven detectors. All seven flagged 18 of 91 essays (19.78%) as AI-generated, and at least one detector flagged 89 of 91 (97.80%). The detectors were described as near-perfect on the eighth-grade essays.
+- **Rewriting TOEFL essays:** prompting ChatGPT to “enhance the word choices to sound more like that of a native speaker” cut the average false-positive rate from 61.22% to 11.77%.
+- **Simplifying eighth-grade essays:** “simplifying” the word choices in the eighth-grade essays raised their average misclassification from 5.19% to 56.65%.
+- **Self-editing generated text:** asking ChatGPT to self-edit its own text lowered detection rates. For essays, rates fell from up to 100% to up to 13%. For abstracts, they fell from up to 68% to up to 28%.
+- **Authors' explanation and caution:** they attribute the pattern to lower text perplexity. They “strongly caution” against using GPT detectors in evaluative or educational settings.
+
+What this does not establish:
+- that current detectors, which have changed since March 2023, show the same rates;
+- results for other languages, ages or proficiency levels;
+- that the two essay sets differ only in writers' language background (task, prompt, age and source also differ);
+- what false-positive rate any particular school would see in practice.
+
+It is evidence that detector scores alone are an unsafe basis for misconduct decisions. It is not a validated estimate of how often detectors err in current classroom use.
+
+<a id="s30"></a>
+
+### S30 — The AI Assessment Scale and its revision
+
+**Source:** Mike Perkins, Leon Furze, Jasper Roe and Jason MacVaugh, “The Artificial Intelligence Assessment Scale (AIAS): A Framework for Ethical Integration of Generative AI in Educational Assessment,” *Journal of University Teaching and Learning Practice* 21(06), 2024, [doi:10.53761/q3azde36](https://doi.org/10.53761/q3azde36); [journal page](https://open-publishing.org/journals/index.php/jutlp/article/view/810). Revised version: Mike Perkins, Jasper Roe and Leon Furze, “Reimagining the Artificial Intelligence Assessment Scale: A refined framework for educational assessment,” *Journal of University Teaching and Learning Practice* 22(7), 2025, [doi:10.53761/rrm4y757](https://doi.org/10.53761/rrm4y757); [journal page](https://open-publishing.org/journals/index.php/jutlp/article/view/1707).
+
+**Access and design:** For both articles the journal landing page, full PDF and Crossref metadata were inspected. The two are conceptual and normative frameworks. They report no participants, no trial and no outcome data.
+- **Date and licence discrepancies, original article:** the PDF gives received 4 December 2023, revised 16 February 2024, accepted 13 March 2024 and published 30 April 2024, under CC BY-NC-SA 4.0. The landing page gives received 14 April 2024 and published online 19 April 2024, under CC BY-ND 4.0. Crossref gives 19 April 2024. These do not agree.
+- **Revised article dates:** the PDF gives submitted 15 April 2025, revised 12 August 2025, accepted 25 September 2025 and online first 27 September 2025. The landing page and Crossref give published online 3 December 2025.
+- **Peer review:** both carry journal editorial details and received or accepted dates. The review process itself was not inspected.
+- **Crossref metadata error:** Crossref swaps the given and family names of the revision's second author, and the journal's generated APA citation repeats the error (“Jasper, R.”). The PDF's own citation reads “Perkins, M., Roe, J., & Furze, L. (2025)”.
+- **Declarations in the revision:** no conflicts of interest and no external funding. The authors say they used ChatGPT (o3-mini-high) and Claude 3.5 Sonnet for ideation, some draft text and editing.
+- **Earlier preprint:** an [arXiv preprint, 2412.09029](https://arxiv.org/abs/2412.09029), titled “The AI Assessment Scale Revisited,” exists. It was not inspected and should not be cited in place of the journal version.
+
+**Finding:** The original AIAS sets out five levels of permitted generative-AI use in an assessment, from “No AI” to “Full AI”. It is meant to let educators match permitted use to learning outcomes and to make expectations clear. Its own limitations section says the scale “has only recently been put into operation in a pilot cohort” and that “there is no empirical research on the scale’s effectiveness in combating academic misconduct or improving student outcomes.”
+
+The 2025 revision keeps five levels: No AI, AI Planning, AI Collaboration, Full AI and AI Exploration. Its main changes are these:
+- it replaces the traffic-light colours with a non-hierarchical design;
+- it drops the old Level 3 requirement to append unassisted original work, because detection cannot verify such submissions;
+- it says Level 1 should take place in supervised settings, not rely on honour systems or detectors;
+- it presents the scale as a tool for redesigning assessments, not a label. It warns that relabelling an unchanged task “Level 3” does not improve validity.
+
+It sets the AIAS alongside the “two-lane” model and accepts critiques that rules alone are “discursive” and need structural redesign. The revision says the scale has been implemented in “hundreds of institutions” and translated into 30 languages. These are the developers' own claims. It cites a pilot (Furze et al., 2024) as early evidence, which was not inspected, and says “further empirical validation is crucial.”
+
+The AIAS is a design and communication framework. Its effect on learning, misconduct or assessment validity has not been established by these papers, and the authors developed the scale they recommend.
+
+<a id="s31"></a>
+
+### S31 — US teens' use of ChatGPT for schoolwork, fall 2024
+
+**Source:** Olivia Sidoti, Eugenie Park and Jeffrey Gottfried, Pew Research Center, “About a quarter of U.S. teens have used ChatGPT for schoolwork – double the share in 2023,” short read, 15 January 2025, [official page](https://www.pewresearch.org/short-reads/2025/01/15/about-a-quarter-of-us-teens-have-used-chatgpt-for-schoolwork-double-the-share-in-2023/); [methodology PDF](https://www.pewresearch.org/wp-content/uploads/sites/20/2025/01/SR_25.01.15_teens-chatgpt_methodology.pdf); [topline PDF](https://www.pewresearch.org/wp-content/uploads/sites/20/2025/01/SR_25.01.15_teens-chatgpt_topline.pdf).
+
+**Access and design:** The short read, methodology and topline were inspected. This is a cross-sectional, self-administered web survey of 1,391 parent–teen dyads, with US teens aged 13–17, fielded 18 September to 10 October 2024.
+- **Mode and panel:** run by Ipsos in English and Spanish on KnowledgePanel, a probability-based panel recruited mainly by address-based sampling. Teens were reached through their parents.
+- **Response:** 3,233 panelists were invited and 1,391 qualifying dyads completed the survey. The completion rate was 51.5% and the cumulative response rate 2.7%.
+- **Weighting and error:** results are weighted to US teens aged 13–17 who live with parents. The margin of error is ±3.3 percentage points for all teens. It is larger for subgroups, for example ±8.0 points for Black teens (unweighted n = 247), because the survey oversampled Black and Hispanic respondents.
+- **Ethics review:** an external IRB (Advarra) approved the study.
+- **Question asked:** “Have you ever used ChatGPT to help with your schoolwork?” It went only to teens who had heard of ChatGPT (unweighted N = 1,056) and was then re-based on all teens. It measures any use ever, of one named product. It does not measure how often teens use it, any other chatbots, or whether use was permitted.
+- **Trend comparison:** the 2023 figures come from a survey fielded 26 September to 23 October 2023, not inspected here.
+- **Measurement limits:** all measures are teen self-reports.
+
+**Finding:** 26% of all US teens said they had ever used ChatGPT to help with schoolwork, up from 13% in 2023. That is 34% of teens who had heard of ChatGPT. The short read reports:
+- Black and Hispanic teens: 31% each, compared with 22% of White teens.
+- Grades 11–12: 31%, compared with 20% in grades 7–8.
+- Gender and household income: no difference in use.
+- Acceptability, among all teens: 54% said using ChatGPT to research new topics is acceptable. For solving math problems the figure was 29% (28% not acceptable), and for writing essays 18% (42% not acceptable).
+- Awareness: 79% had heard of ChatGPT.
+
+These are population estimates of self-reported use. They do not show how intensively teens used it, what they produced, whether the use was misconduct, or any effect on learning. The figure is specific to ChatGPT and should not be equated with use of AI chatbots in general (see S32).
+
+<a id="s32"></a>
+
+### S32 — How US teens use AI chatbots, including for schoolwork, fall 2025
+
+**Source:** Colleen McClain, Monica Anderson, Olivia Sidoti and William Bishop, Pew Research Center, *How Teens Use and View AI*, 24 February 2026, [official report page](https://www.pewresearch.org/internet/2026/02/24/how-teens-use-and-view-ai/); [report PDF](https://www.pewresearch.org/wp-content/uploads/sites/20/2026/02/PI_2026.02.24_Teens-and-AI_REPORT.pdf).
+
+**Access and design:** The report page and full PDF, including methodology and topline, were inspected. A related demographic page and an earlier Pew short read on teens' chatbot use were not inspected. This is a cross-sectional, self-administered web survey of 1,458 parent–teen dyads, with US teens aged 13–17, fielded 25 September to 9 October 2025.
+- **Mode and panel:** Ipsos KnowledgePanel, in English and Spanish.
+- **Response:** 3,516 panelists were invited, 2,067 were eligible and 1,458 completed. The study-level response rate (AAPOR RR1) was 45% and the cumulative response rate 1.2%.
+- **Error and ethics review:** the margin of error is ±3.3 percentage points for teens and for parents. An external IRB (Advarra) approved the study.
+- **Question wording:** items ask about “artificial intelligence (AI) chatbots like ChatGPT, Copilot or Character.ai”. They are not the ChatGPT-specific items in S31, and the report presents no trend comparison with them.
+- **Bases:** the detailed schoolwork items were asked of teens who had used chatbots for schoolwork help (unweighted N = 766). The cheating-perception item was asked of non-homeschooled teens who had heard of chatbots (unweighted N = 1,256). Results are also re-based on all teens.
+- **Measurement limits:** all measures are self-report. The cheating item records what teens perceive about other students.
+
+**Finding:** Among all teens:
+- 64% said they use AI chatbots.
+- 54% said they had ever used chatbots to get help with schoolwork.
+- 10% said they do all or almost all (3%) or most (7%) of their schoolwork with chatbot help. Another 21% said some and 23% said a little.
+- For specific school tasks: 48% had used chatbots to research a topic, 43% to solve a math problem and 35% to edit something they wrote.
+- 26% rated chatbots extremely or very helpful for schoolwork.
+- 59% said students at their school use AI chatbots to cheat at least somewhat often, 14% rarely or never, and 15% were not sure. The figure was 76% among teens who had used chatbots for schoolwork.
+
+The cheating figure is a perception of peers, not a measured rate of misconduct. These figures should not be read as a straight rise from S31's 26%: the product, wording and question flow all differ. The report does not measure learning outcomes, whether use was permitted, or the quality of help received.
+
+<a id="s33"></a>
+
+### S33 — US teachers' AI use and self-estimated time savings
+
+**Source:** Walton Family Foundation and Gallup, *Teaching for Tomorrow: Unlocking Six Weeks a Year With AI*, June 2025, [Gallup-hosted report PDF](https://www.gallup.com/file/analytics/691922/Walton-Family-Foundation-Gallup-Teachers-AI-Report.pdf); Andrea Malek Ash, Gallup, “Three in 10 Teachers Use AI Weekly, Saving Six Weeks a Year,” 24 June 2025, [official article](https://news.gallup.com/poll/691967/three-teachers-weekly.aspx).
+
+**Access and design:** The Gallup article and full report PDF were inspected. The Gallup-hosted and [Walton-hosted](https://static.waltonfamilyfoundation.org/df/fb/eba12807470a9402d7433cc47dba/teaching-for-tomorrow-unlocking-six-weeks-a-year-with-ai-report.pdf) copies have identical extracted text. The survey ran on the web from 18 March to 11 April 2025, with 2,232 US public K-12 teachers recruited from the RAND American Teacher Panel, a probability-based panel.
+- **Weighting and error:** the sample was weighted to national teacher and school characteristics. The margin of error is ±2.5 percentage points for all teachers. Subgroup unweighted counts, including weekly AI users, are not reported in the inspected text.
+- **Peer review:** this is a sponsored survey report, not peer-reviewed. The Walton Family Foundation commissioned it.
+- **How the time figure was built:** teachers who used AI for a task at least monthly said whether it saved time, made no difference or added time. Those who reported a change estimated the hours per week, to the nearest half hour. Net estimates per task were trimmed at the 2.5th and 97.5th percentiles, then summed across six non-overlapping tasks: worksheets, assessments, modifying materials, grading or feedback, analysing student data, and administrative work.
+- **Inconsistency in the text:** the methodology defines the “AI dividend” as an average among teachers using AI at least monthly. The 5.9-hour figure is reported for teachers using AI at least weekly.
+- **Measurement limits:** this is self-estimated time. There is no time-use diary, observation or comparison group.
+
+**Finding:** Six in ten teachers reported using an AI tool for work in 2024–25: 32% at least weekly, 28% less often and 40% not at all.
+- **Time saved by task:** among teachers using AI for a given task, 60% to 84% said it saved time on that task, and 7% or fewer said it took more time.
+- **The headline figure:** teachers using AI at least weekly estimated saving 5.9 hours per week on average. Weekly users estimated 5.9 hours and monthly users 2.9 hours.
+- **“Six weeks a year”:** Gallup multiplies 5.9 hours by 37.4 contracted weeks to get 220.66 hours, then divides by a 37.5-hour contracted week. This is an extrapolation of a self-estimated weekly figure, not measured annual time.
+- **Policy and training:** only 19% of teachers said their school has an AI policy. Teachers at such schools were more likely to have used AI (70% vs 60%). The report gives 2.3 vs 1.7 hours saved per week per teacher by policy status, but the inspected text does not explain the basis of that per-teacher average. It is a cross-sectional association, not evidence that policies cause savings. 68% had received no school or district AI training.
+- **Quality:** majorities of task users reported higher-quality work, from 57% for grading and feedback to 74% for administrative work.
+
+The survey does not establish actual time saved, what the time was used for (the reinvestment examples are qualitative quotes), effects on students, or the accuracy of AI-assisted grading.
+
+**Update, 12 November 2026:** Two later Gallup releases were inspected. They use different samples and measures and should not be merged with the 2025 figures.
+- **Guidance, 2026:** Andrea Malek Ash and Katherine Senseman, “[Most Teachers Receive No Formal Guidance on AI Use](https://news.gallup.com/poll/710534/teachers-receive-no-formal-guidance.aspx),” 26 May 2026. This is from the Walton–Gallup study *Teaching for Tomorrow: Closing the Expectations Gap*, a web survey of 2,069 US public K-12 teachers from the RAND American Teacher Panel, fielded 9 February to 2 March 2026, margin of error ±2.5 points. It reports that 18% of teachers receive any formal administrator guidance on AI use for their work. Across 10 tasks, 34% receive no guidance and 48% only informal guidance. The full report was not inspected.
+- **Time for what matters, 2026:** Megan Brenan, “[Teachers Using AI Say It Frees Up Time for What Matters Most](https://news.gallup.com/poll/715364/teachers-using-say-frees-time-matters-most.aspx),” 14 October 2026. This surveyed 1,952 US K-12 “educators” from the probability-based Gallup Panel, fielded 28 July to 14 August 2026, margin of error ±2.7 points. Unlike the earlier sample, it includes paraprofessionals, substitutes and other classroom staff, not only teachers. 59% said they used AI tools for work in 2025–26. Among those users, 13% said AI gave them a lot more time for the parts of the job that matter most, 51% somewhat more, 29% no effect, and 7% said it cost them time. This is a different question from the 2025 hours estimate.
+
+<a id="s34"></a>
+
+### S34 — US children's AI use, ages 9–17, spring 2026
+
+**Source:** Eleanor O’Neil, Kristen Soltis Anderson, Baxter White, Laura Zimmermann, Supreet Mann and Michael B. Robb, *The Common Sense Media Census: AI Use by Tweens and Teens, 2026*, Common Sense Media, 2026, [report PDF](https://www.commonsensemedia.org/sites/default/files/research/report/2026-ai-use-by-tweens-and-teens.pdf). The exact release date was not established.
+
+**Access and design:** The full 60-page PDF, including methodology and supplemental tables, was inspected. The report's landing page was not reachable. This is a cross-sectional, self-administered web survey of 1,204 US children aged 9–17, fielded 18–26 March 2026 by SSRS.
+- **Panel and language:** children were reached through parents in the SSRS Opinion Panel, which is recruited from an address-based sample plus a prepaid-cellphone RDD sample. 1,154 children answered in English and 50 in Spanish.
+- **Response:** 1,421 were invited. The completion rate was 84.73% and the cumulative response rate 4.01%.
+- **Weighting and error:** results are weighted to US children aged 9–17. The margin of error is ±3.8 percentage points.
+- **Questionnaire:** developed with Echelon Insights, whose staff are co-authors, and pretested with six cognitive interviews. The median completion time was about seven minutes.
+- **Funding:** the report names foundation and philanthropic funders. It was not peer-reviewed.
+- **What counted as “AI”:** the survey's definition was broad and included AI summaries in search results.
+- **Measurement limits:** all measures are self-report by children, including some as young as 9.
+
+**Finding:**
+- **Overall use:** 86% of children said they use or interact with any AI, and 24% daily. This includes search summaries, which 75% had encountered. 67% had used AI chatbots.
+- **Schoolwork, among AI users (n = 1,032):** 85% use AI for help with schoolwork or homework. 48% do so at least weekly, including 21% daily.
+- **Homework difficulty:** 16% of homework users said they have difficulty starting or completing homework without AI.
+- **Devices, among AI users:** 44% use AI on a school computer or tablet and 78% on their own device.
+- **School communication, all children:** 73% said their school or a teacher had communicated this school year about what they should and should not use AI for in schoolwork. 56% said the school had discussed using AI safely, and 51% had heard how to tell whether AI information is accurate.
+- **Wellbeing:** heavier users more often reported loneliness. The report itself says a single survey “cannot determine” the direction of this association or rule out other factors.
+
+The census does not measure learning, whether use was permitted, or the accuracy of what children received. Because of the broad definition, “uses AI” is not the same as “uses a chatbot”.

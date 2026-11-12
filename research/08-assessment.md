@@ -13,3 +13,7 @@ The undergraduate physics study used pre- and immediate post-tests after two sho
 ## Possible approaches to evaluate
 
 Use an explanation or short conversation alongside a finished product; compare an initial attempt with a revision; ask a learner to check a deliberately flawed answer; or offer an appropriately accessible independent task. Assess the approach for fairness, workload and whether it measures the stated goal. Do not infer misconduct solely from a detector or an AI-like writing style; the sources here do not establish a reliable detection method.
+
+## Further in the library
+
+For evidence on AI-text detectors and on assessment scales that set permitted AI use task by task, see [Detection, trust and assessment design](27-detectors-and-assessment-design.md).
