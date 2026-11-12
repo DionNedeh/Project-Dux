@@ -201,3 +201,13 @@ footer{flex-direction:column}
 .practice .tool .tool-lede,.practice .tool .tool-note{color:var(--muted)}
 .role-table caption{text-align:left;caption-side:top;padding-bottom:8px}
 .findings-note{margin-top:0}
+.excerpts{border-top:1px solid var(--line);margin:34px 0 24px;padding-top:22px;max-width:760px}
+.excerpts h3{font-size:12px;font-family:Arial,sans-serif;font-weight:700;letter-spacing:.15em;text-transform:uppercase;margin:0 0 6px}
+.origin blockquote.excerpt{font-size:clamp(19px,1.7vw,23px);line-height:1.45;letter-spacing:0;margin:18px 0;padding-left:18px;border-left:3px solid var(--accent);color:var(--ink)}
+.origin-page{max-width:900px;margin:0 auto}
+.origin-page h1{font-size:clamp(46px,6vw,80px)}
+.origin-page .intro{max-width:none}
+.post-copy{background:#fff;border:1px solid var(--line);padding:clamp(20px,4vw,40px);margin:32px 0;font-size:17px;line-height:1.75}
+.post-copy p{margin:0 0 1.1em;overflow-wrap:anywhere}
+.post-meta,.post-link{font-size:14px;color:var(--muted)}
+.tool-note{line-height:1.6}

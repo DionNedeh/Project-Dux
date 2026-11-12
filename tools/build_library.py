@@ -246,11 +246,11 @@ def main():
     (ROOT / '404.html').write_text(not_found, encoding='utf-8')
 
     # Stamp the hand-written homepage's own assets.
-    home = ROOT / 'index.html'
-    text = home.read_text(encoding='utf-8')
-    for name in ('styles.css', 'site.js'):
-        text = re.sub(r'(["\'])' + re.escape(name) + r'(?:\?v=[0-9a-f]+)?\1', lambda m: m[1] + version(ROOT / name) + m[1], text)
-    home.write_text(text, encoding='utf-8')
+    for home in (ROOT / 'index.html', ROOT / 'origin.html'):
+        text = home.read_text(encoding='utf-8')
+        for name in ('styles.css', 'site.js'):
+            text = re.sub(r'(["\'])' + re.escape(name) + r'(?:\?v=[0-9a-f]+)?\1', lambda m: m[1] + version(ROOT / name) + m[1], text)
+        home.write_text(text, encoding='utf-8')
 
     print(f'Built {chapters} chapters, {sources} source notes, catalogue and 404 page')
 
